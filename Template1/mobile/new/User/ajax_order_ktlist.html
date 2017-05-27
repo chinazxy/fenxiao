@@ -1,0 +1,27 @@
+<volist name="lists" id="list">
+       <a href="{:U('/Mobile/User/order_detail',array('id'=>$list['order_id'],'type'=>1))}">
+       <if condition="($list.order_status eq 0) "><div class="alert alert-danger z-order-list"></if>
+       <if condition="($list.order_status eq 1) and ($list.shipping_status eq 0) and ($list.pay_status eq 1)"><div class="alert alert-warning z-order-list"></if>
+       <if condition="($list.order_status eq 1) and ($list.shipping_status eq 1) and ($list.pay_status eq 1)"><div class="alert alert-success z-order-list"></if>    
+       <if condition="($list.order_status eq 3) or ($list.order_status eq 5)"><div class="alert alert-primary z-order-list"></if>
+       <if condition="($list.order_status eq 1) and ($list.pay_status eq 0)"><div class="alert alert-info z-order-list"></if>
+       <if condition="($list.order_status eq 2) or ($list.order_status eq 4)"><div class="alert alert-info z-order-list"></if>
+        <if condition="($list.order_status gt 5)"><div class="alert alert-info z-order-list"></if>
+            <div class="col-xs-12 clearfix z-order2-head">
+                <div class="pull-right text-danger"></div>
+                <div class="">{$list[order_sn]}</div>
+            </div>
+            <div class="clearfix">
+            	<div class="col-xs-9">
+                	<div class="text-ellipsis">{$good.goods_name}</div>
+                    <div class="">订单金额：￥{$list[order_amount]}</div>
+                    <div class="">下单时间 &nbsp;&nbsp;{:date("Y-m-d H:i:s",$list[add_time])}</div>
+                </div>
+                <div class="col-xs-3 z-order-right">
+                	<div>￥&nbsp;{$list[order_amount]}</div>
+                	<div><a class="btn btn-mini" href="{:U('Mobile/User/return_goods',array('order_id'=>$list['order_id'],'order_sn'=>$list['order_sn'],'goods_id'=>$list['goods_id']))}">退货</a></div>
+                </div>
+            </div>
+        </div>
+        </a>
+</volist>  

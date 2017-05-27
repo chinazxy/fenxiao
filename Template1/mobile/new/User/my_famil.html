@@ -1,0 +1,118 @@
+<include file="Public/header"/>
+<style>
+.my_sxlv{padding:50px 0 70px 0;}
+a{color:#333;}
+.list_famil{border-top:10px solid #f5f5f5;}
+.goods_nav{top:50px;}
+</style>
+<body>
+<div class="wrap">
+	<!--头部-->
+    <div class="header2">
+    	<a><i onClick="history.go(-1)"></i></a>
+        <!--<a href="{:U('Mobile/Index/index')}" class="icon icon_home"></a>-->
+        <aside class="top_bar">
+         <div onClick="show_menu();$('#close_btn').addClass('hid');" id="show_more"><a href="javascript:;"></a> </div>
+       </aside>
+       <p>我的上下级</p>
+    </div>
+     <include file="Public/menu"/>
+    <div class="my_sxlv">
+        <div class="" style="display:none">
+            <div class="z-list"><i class="icon-search"></i>&nbsp;代理商查询</div>
+        </div>
+        <if condition="$parent.user_id neq 0">
+        <div class=" padding_hhi">
+            <div class="z-list sever background_none border_bottom">我的上级：</div>
+            <if condition="$parent.is_temination neq 2">
+            <a href="{:U('Mobile/User/famil_detail')}?type=1&uid={$parent.user_id}">
+            </if>
+            <div class="channel-box z_pomar clearfix">
+            	<empty name="parent.head_pic">
+                   <div class="col-xs-4"><img class="img-responsive" src="__STATIC__/images/user68.jpg"/></div>
+                 <else />
+                  <div class="col-xs-4"><img class="img-responsive" src="__ROOT__/{$parent.head_pic}"/></div>
+                </empty>
+                <div class="col-xs-8">
+                    <div class="col-xs-7">{$parent.nickname}</div>
+                    <div class="col-xs-5 text-primary">{$parent.level}</div>
+                    <div class="col-xs-7">{$parent.mobile}</div>
+                    <div class="col-xs-5"></div>
+                    <if condition='$parent.is_lock eq 1 and $parent.is_temination eq 0'>
+                        <div class="col-xs-5 text-danger">冻结</div>
+                        <elseif condition="$parent.is_temination eq 1"/>
+                        <div class="col-xs-5 text-danger">解约</div>
+                        <elseif condition="$parent.is_temination eq 2"/>
+                        <div class="col-xs-5 text-danger">解约中</div>
+                        <else />
+                        <div class="col-xs-5 text-danger">正常</div>
+                    </if>
+                </div>
+            </div>
+            </a>
+        </div>
+
+        </if>
+        <div class=" padding_hhi">
+        	<div class="z-list sever background_none border_bottom">我的下级：</div>
+            <foreach name='child' item='chi'>
+            <a href="{:U('Mobile/User/famil_detail')}?type=2&uid={$chi.user_id}">
+            <div class="channel-box z_pomar clearfix">
+            	<empty name="chi.head_pic">
+                    <div class="col-xs-4"><img class="img-responsive" src="__STATIC__/images/user68.jpg"/></div>
+                 <else />
+                 	<div class="col-xs-4"><img class="img-responsive" src="__ROOT__/{$chi.head_pic}"/></div>
+                </empty>
+                <div class="col-xs-8">
+                    <div class="col-xs-7">{$chi.nickname}</div>
+                    <div class="col-xs-5 text-primary">{$chi.level}</div>
+                    <div class="col-xs-7">{$chi.mobile}</div>
+                     <php>if($chi['is_lock']==2||$chi['is_lock']==4){</php>
+                     <div class="col-xs-7"><a href="{:U('pass_apply')}?id={$chi.user_id}">通过下级申请审核</a></div>
+                     <php>}</php>
+                   <!--   -->
+                    <if condition='$chi.is_lock eq 1 and $chi.is_temination eq 0'>
+                    	<div class="col-xs-5 text-danger">冻结</div>
+                    	<div style='float:right' class="col-xs-5 text-danger"><php>if(!empty($chi['jy'])){echo $chi['jy'];}</php></div>
+                     <elseif condition="$chi.is_temination eq 1"/>
+                        <div class="col-xs-5 text-danger">解约</div>
+                        <div style='float:right' class="col-xs-5 text-danger"><php>if(!empty($chi['jy'])){echo $chi['jy'];}</php></div>
+                        <elseif condition="$chi.is_temination eq 2"/>
+                        <div class="col-xs-5 text-danger">解约申请中</div>
+                        <div style='float:right' class="col-xs-5 text-danger"><php>if(!empty($chi['jy'])){echo $chi['jy'];}</php></div>
+                        <elseif condition="$chi.is_temination eq 3"/>
+                        <div class="col-xs-5 text-danger">平台解约中</div>
+                        <div style='float:right' class="col-xs-5 text-danger"><php>if(!empty($chi['jy'])){echo $chi['jy'];}</php></div>
+                    <else />
+                     <div class="col-xs-5 text-danger">正常</div>
+                    	<div style='float:right' class="col-xs-5 text-danger"><php>if(!empty($chi['jy'])){echo $chi['jy'];}</php></div>
+                    </if>
+                </div>
+            </div>
+           
+            
+            
+            </a>
+            </foreach>
+            <a style="display:none"><div class="icon_more">加载更多</div></a>
+        </div>
+    </div>
+<include file="Public/footer"/>
+</div>
+<include file="Public/footer"/>
+<script>
+
+$('.more').on('click',function(){
+	$.get("{:U('more_hot')}",{page:page},function(data){
+		if(data.status==1001){
+			alert(data.data);
+		}else if(data.status==1000){
+			page++;
+			console.log(data.data);
+		}
+		console.log(page);
+	})
+})
+</script>
+</body>
+</html>

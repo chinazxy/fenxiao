@@ -1,0 +1,48 @@
+<include file="Public/header"/>
+<style>
+.goods_nav{top:50px;}
+</style>
+<body>
+<div id="pageContent">
+	<div class="header2">
+    	<a onClick="history.go(-1)"><i></i><span></span></a>
+        <!--<a href="{:U('Mobile/Index/index')}" class="icon icon_home"></a>-->
+        <aside class="top_bar">
+         <div onClick="show_menu();$('#close_btn').addClass('hid');" id="show_more"><a href="javascript:;"></a> </div>
+       </aside>
+        <p>我的退货</p>
+    </div>
+    <include file="Public/menu"/>
+    <div style="height:50px;"></div>
+	<div class="">
+	
+	 <volist name="list" id="item">
+	 <a href="{:U('User/return_goods_info',array('id'=>$item[id]))}">
+    	<div class="alert alert-primary z-order-list">
+            <div class="col-xs-12 clearfix z-order2-head">
+           		 <if condition="$item['status'] eq 0"><div class="pull-right text-danger">待客服处理</div></if>
+                 <if condition="$item['status'] eq 1"><div class="pull-right text-danger">客服处理中</div></if>
+                 <if condition="$item['status'] eq 2"><div class="pull-right text-danger">已完成</div></if>  
+                <div class="">{$item.order_sn}</div>
+            </div>
+            <div class="clearfix">
+            	<div class="col-xs-9">
+                	<div class="text-ellipsis">{$item.reason}</div>
+                    <div class="">订单金额：￥{$item.order_info.total_amount}</div>
+                    <div class="">申请时间 &nbsp;&nbsp;{$item.addtime|date="Y-m-d",###}</div>
+                </div>
+                <div class="col-xs-3 z-order-right">
+                	<div>￥&nbsp;{$item.order_info.total_amount}</div>
+                	<div style="display:none"><a class="btn btn-mini">取消申请</a></div>
+                </div>
+            </div>
+        </div>
+    	</a>
+    	</volist> 
+    </div>
+</div>
+<!-- <script src="../js/jquery-1.9.1.min.js"></script>
+<script src="../js/zui.min.js"></script> -->
+<include file="Public/footer"/>
+</body>
+</html>

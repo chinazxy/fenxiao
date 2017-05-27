@@ -1,0 +1,271 @@
+<include file="Public/header"/>
+<link rel="stylesheet" href="__STATIC__/css/main.css" type="text/css">
+<link rel="stylesheet" href="__STATIC__/css/public.css" type="text/css">  
+    <div class="mycenter">
+    	<div class="my_center_head">
+        	<div class="my_center_head_left">
+        		<if condition="user.head_pic neq ''">
+        			<div><img src="__ROOT__/{$user.head_pic}"/></div>
+        		<else />
+        			<div><img src="__STATIC__/images/user68.jpg"/></div>
+        		</if>
+            	<input type='hidden' value='{$user[is_lock]}'/>
+            	
+                
+            </div>
+			<if condition="$user[is_lock] eq 0 and $user[is_temination] eq 1">
+            		<a class="center_bond on">已解约</a>
+                <elseif condition="$user[is_lock] eq 0 and $user[is_temination] eq 2 or $user[is_temination] eq 3"/>
+                    <a class="center_bond on">解约中</a>
+                <elseif condition="($user[is_out] eq 1) and ($user[is_lock] eq 2)"/>
+                    <a class="center_bond on">等待审核</a>
+                <elseif condition="$user[is_lock] eq 3"/>
+                    <a class="center_bond on">平台审核中</a>
+                <elseif condition="($user[is_out] eq 2)and ($user[is_lock] eq 2)"/>
+                    <a class="center_bond on" href="{:U('User/again')}?id={$user.user_id}">重新审核</a>
+                 <elseif condition="$user[is_lock] eq 0"/>
+                    <a class="center_bond on">已缴保证金</a>
+            	<elseif condition="($user[is_lock] eq 1)"/>
+            		<a class="center_bond on" href="{:U('User/pay_order')}?type=3">未缴保证金</a>
+            	</if>
+            <div class="my_center_head_right">
+            	<h3>{$user['username']}<!--<a class="m_btn"  href="{:U('Mobile/User/docash')}">提现</a>--></h3>
+                <!--<div class="rank">经销商等级：<span>{$user['level_name']}</span><a class="m_btn">升级</a></div>-->
+            </div>
+          
+        </div>
+		<div style="background:#fff;">
+			<div class="capital And">
+				<if condition="$user[u_type] eq 1">
+					<div class="Si"><p class="name"><em class="yuer"><img src="/Public/upload/head_pic/20170520/yuer.svg"/></em>余额</p><p class="money">￥{$user['user_money']}</p></div>
+					<div class="Si sever"><p class="name">不可用余额</p><p class="money">￥{$user['frozen_money']}</p></div>
+				</if>
+				<if condition="$user[u_type] eq 2">
+					<div class="Si"><p class="name">可用余额</p><p class="money">￥{$finance['f_money']}</p></div>
+					<div class="Si sever"><p class="name">不可用余额</p><p class="money">￥{$finance['frozen_money']}</p></div>
+				</if>
+			</div>
+			<div class="list-block">
+
+				<div class="list-block_box border_none">
+					<div class="list-block_box_left">我的订单</div>
+					<div class="list-block_box_right"><i class="icon yuer"><img src="/Public/upload/head_pic/20170520/dding.svg"/></i></div>
+				</div>
+				<div id="od_uAnd" class="c-panel clearfix">
+					<span class="list_bor1 list_bor2"></span>
+					<span class="list_bor3"></span>
+					<div class="usr-fkx clearfix">
+						<a class="order-tag" href="{:U('/Mobile/User/order_list',array('type'=>'WAITPAY'))}"  >
+							<i class="tj"><img src="/Public/upload/head_pic/20170520/wd_2.svg"/></i>
+							<if condition="$waitpayNum neq 0"><em>{$waitpayNum}</em></if>
+							<span>待付款</span>
+						</a>
+						<a class="order-tag" href="{:U('/Mobile/User/order_list',array('type'=>'WAITSEND'))}">
+							<i class="tj"><img src="/Public/upload/head_pic/20170520/wd_3.svg"/></i>
+							<if condition="$waitsendNum neq 0"><em>{$waitsendNum}</em></if>
+							<span>待发货</span>
+						</a>
+						<a class="order-tag" href="{:U('/Mobile/User/order_list',array('type'=>'WAITRECEIVE'))}">
+							<i class="tj"><img src="/Public/upload/head_pic/20170520/wd_4.svg"/></i>
+							<if condition="$waitreceiveNum neq 0"><em>{$waitreceiveNum}</em></if>
+							<span>待收货</span>
+						</a>
+						<a class="order-tag" href="{:U('/Mobile/User/order_list',array('type'=>'RETURNING'))}">
+							<i class="tj"><img src="/Public/upload/head_pic/20170520/wd_5.svg"/></i>
+							<if condition="$waitcomentNum neq 0"><em>{$waitcomentNum}</em></if>
+							<span>退货中</span>
+						</a>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="list-block">
+				<div class="list-block_box border_none">
+					<div class="list-block_box_left">下级订单</div>
+					<div class="list-block_box_right"><i class="icon yuer"><img src="/Public/upload/head_pic/20170520/dding.svg"/></i></div>
+				</div>
+				<div id="od_uAnd" class="c-panel clearfix">
+					<span class="list_bor1 left50"></span>
+
+					<span class="list_bor3 widthop"></span>
+					<div class="usr-fkx width100 clearfix">
+
+						<a class="order-tag" href="{:U('/Mobile/User/order_list_down',array('type'=>'WAITSEND'))}">
+							<i class="tj"><img src="/Public/upload/head_pic/20170520/wd_3.svg"/></i>
+							<if condition="$kidWaitSend neq 0"><em>{$kidWaitSend}</em></if>
+							<span>待发货</span>
+						</a>
+						<a class="order-tag" href="{:U('/Mobile/User/order_list_down',array('type'=>'WAITRECEIVE'))}">
+							<i class="tj"><img src="/Public/upload/head_pic/20170520/wd_4.svg"/></i>
+							<if condition="$kidWaitReceive neq 0"><em>{$kidWaitReceive}</em></if>
+							<span>待收货</span>
+						</a>
+						<a class="order-tag" style="width: 100%" href="{:U('/Mobile/User/order_list_down',array('type'=>'RETURNING'))}">
+							<i class="tj"><img src="/Public/upload/head_pic/20170520/wd_5.svg"/></i>
+							<if condition="$kidReturning neq 0"><em>{$kidReturning}</em></if>
+							<span>待退货</span>
+						</a>
+
+					</div>
+				</div>
+			</div>
+
+        <div class="list-block">
+        <a href="{:U('Mobile/User/account_list')}" >
+        	<div class="list-block_box">
+            	<div class="list-block_box_left">账户管理</div>
+                <div class="list-block_box_right"><i class="icon yuer"><img src="/Public/upload/head_pic/20170520/zhgl.svg"/></i></div>
+            </div>
+          </a>
+        </div>
+        <div class="list-block">
+        <a href="{:U('Mobile/User/cash')}" >
+        	<div class="list-block_box">
+            	<div class="list-block_box_left">资金管理</div>
+                <div class="list-block_box_right"><i class="icon yuer"><img src="/Public/upload/head_pic/20170520/yhq.svg"/></i></div>
+            </div>
+          </a>
+        </div>
+          <div class="list-block">
+        <a href="{:U('Mobile/User/my_goods')}" >
+        	<div class="list-block_box">
+            	<div class="list-block_box_left">库存查看</div>
+                <div class="list-block_box_right"><i class="icon yuer"><img src="/Public/upload/head_pic/20170520/kcgl.svg"/></i></div>
+            </div>
+          </a>
+        </div> 
+     
+        <div class="list-block">
+        <a href="{:U('Mobile/User/return_order')}" >
+        	<div class="list-block_box">
+            	<div class="list-block_box_left">可退货单</div>
+                <div class="list-block_box_right"><i class="icon yuer"><img src="/Public/upload/head_pic/20170520/kthd.svg"/></i></div>
+            </div>
+            </a>
+        </div>
+       <!--   <div class="list-block">
+        <a href="{:U('Mobile/User/return_goods_list')}" >
+        	<div class="list-block_box">
+            	<div class="list-block_box_left">我的退货</div>
+                <div class="list-block_box_right"><i class="icon icon_back"></i></div>
+            </div>
+            </a>
+        </div>
+      <div class="list-block">
+        <a href="{:U('Mobile/User/return_goods_list_down')}" >
+        	<div class="list-block_box">
+            	<div class="list-block_box_left">下级退货</div>
+                <div class="list-block_box_right"><i class="icon icon_back"></i></div>
+            </div>
+            </a>
+        </div>-->
+    	<div class="list-block">
+    	<a href="{:U('Mobile/User/userinfo')}">
+        	<div class="list-block_box">
+            	<div class="list-block_box_left">我的帐号</div>
+                <div class="list-block_box_right"><i class="icon yuer"><img src="/Public/upload/head_pic/20170520/wdzh.svg"/></i></div>
+            </div>
+            </a>
+        </div>
+    	<div class="list-block">
+    	<a href="fff.html">
+        	<div class="list-block_box">
+            	<div class="list-block_box_left">申请首页推广</div>
+                <div class="list-block_box_right"><i class="icon yuer"><img src="/Public/upload/head_pic/20170520/tg.svg"/></i></div>
+            </div>
+            </a>
+        </div>
+        <div class="list-block">
+        <a href="{:U('User/change_pwd')}">
+        	<div class="list-block_box">
+            	<div class="list-block_box_left">帐号安全</div>
+                <div class="list-block_box_right"><i class="icon yuer"><img src="/Public/upload/head_pic/20170520/zhaq.svg"/></i></div>
+            </div>
+         </a>
+        </div>
+        <div class="list-block">
+        <a href="{:U('User/address_list')}">
+        	<div class="list-block_box">
+            	<div class="list-block_box_left">收货地址</div>
+                <div class="list-block_box_right"><i class="icon yuer"><img src="/Public/upload/head_pic/20170520/adds.svg"/></i></div>
+            </div>
+        </a>
+        </div>
+        <div class="list-block">
+        <a href="{:U('User/my_famil')}">
+        	<div class="list-block_box">
+            	<div class="list-block_box_left">我的上下级</div>
+                <div class="list-block_box_right"><i class="icon yuer"><img src="/Public/upload/head_pic/20170520/sxj.svg"/></i></div>
+            </div>
+        </a>
+        </div>
+        <div class="list-block" style="display:none">
+        <a href="{:U('User/message_list')}">
+        	<div class="list-block_box">
+            	<div class="list-block_box_left">反馈意见</div>
+                <div class="list-block_box_right"><i class="icon icon_back"></i></div>
+            </div>
+            </a>
+        </div></div>
+        
+        <div class="cancel"><a href="{:U('User/logout')}" class="btn btn-lg btn-block btn-danger" style="color:#fff;">注销</a></div>
+        
+        <div style="height:120px;"></div>
+    </div>  
+    
+    <include file="Public/footer"/>
+    <!-- <div class="footer">
+    	<a class="icon icon_s"><i></i><span>产品</span></a>
+        <a class="icon icon_s"><i></i><span>订单</span></a>
+        <a class="icon icon_s"><i></i><span>通知</span></a>
+        <a class="icon icon_s"><i></i><span>我的</span></a>
+    </div> -->
+</div>
+
+<script type="text/javascript">
+var page = 1;
+var H = $(window).innerHeight();
+$('.H').css('height', H + 'px');
+
+var menu=1;
+/* $('.menu').click(function(){
+	$(this).toggleClass('on');
+}) */
+$('.header_menu_i').click(function(){
+    $('body').toggleClass('mobopen');
+    
+    if(menu==1){
+        $('.header_menu').css('height','0px');
+        $('.header_menu').animate({height:H + 'px'},500);
+        menu=2;
+    }else{
+        $('.header_menu').show().animate({height:'0px'},500);
+        setTimeout(function(){
+            $('.header_menu').css('display','')
+        },500)
+        menu=1;
+    }
+});
+
+function headmenu_m(a,b){
+    if(!b) return;
+    $(a).parent().toggleClass('open');
+}
+
+$('.more').on('click',function(){
+	$.get("{:U('more_hot')}",{page:page},function(data){
+		if(data.status==1001){
+			alert(data.data);
+		}else if(data.status==1000){
+			page++;
+			console.log(data.data);
+		}
+		console.log(page);
+	})
+})
+</script>
+
+
+</body>
+</html>

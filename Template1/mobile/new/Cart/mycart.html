@@ -1,0 +1,164 @@
+<include file="Mypublic/header"/>
+    <div style="height:60px;"></div>
+    <div class="cart">
+      <foreach name='cartList' item='cart'>
+        <div class="product_list1"  style="border-bottom:1px solid ;">
+            <div class="product_box">
+                <div class="product_box_img"><img src="{$cart.original_img}"/></div>
+                <div class="name">{$cart.goods_name}</div>
+                <div class="spec"><i>{$cart.key_name}</i><span class="stock">库存：
+               <php>if($cart['store']>100){</php> 
+                                       库存充足
+                <php>}else{</php>
+                                       库存紧张 
+                <php>}</php>
+                </span></div>
+                <div class="price">￥{$cart["member_goods_price"]}</div>
+            </div>
+            <div class="cart_btn" style='border:none;'>
+                <span class="cart_btn_a"><i></i><span>删除</span></span><input class='delet' type='hidden' value='{$cart.id}' name="delet"/>
+				<div class="f-right goods_info">单位(件)<input  type='hidden' value='{$cart["spec_key"]}/{$cart.goods_id}'><input class='number' name="" type="text" value='{$cart["goods_num"]}'onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}"><input class='prices' type='hidden' value='{$cart["member_goods_price"]}'></div>
+            </div>
+        </div>
+       </foreach>
+       <php>if(empty($cartList)){</php>
+       <p class="text-center wu">购物车内暂时没有产品</p>
+       <php>}</php>
+    </div>
+    
+    
+    
+    <div class="cart_footer">
+        <div class="cart_footer_left">
+            <span class="cart_footer_left_n goods_number">商品：{$goods_count}</span>
+            <span class="cart_footer_left_n z-color-main">&nbsp;&nbsp;&nbsp;合计：<span class="total">￥{$priceCount}元</span></span>
+        </div>
+        <a  class="m_btn f-right">下单</a>
+        
+        <form  action="{:U('Cart/sure_buy')}" method='POST' id='sure_buy'>
+            <input type='hidden' value="2" name="buy_type" />
+			<input type='hidden' value="is_cart" name="is_cart">
+        </form>
+    </div>
+</div>
+
+<script type="text/javascript">
+var H = document.body.clientHeight;
+$('.H').css('height', H + 'px');
+
+$('.menu').click(function(){
+    $(this).toggleClass('on');
+})
+$(function(){
+	$('.number').on('change',function(){
+		if($(this).val()==0){
+			 $.toast({text:"商品数量不能为0"});
+			 return;
+		}
+		var fright = $('.goods_info');
+		var count = 0;
+		var gcount = 0;
+		fright.each(function(){
+			var num = $(this).find('.number').val();
+			var price = $(this).find('.prices').val();
+			count += (num*price);
+			gcount = Number(num)+Number(gcount);
+		})
+		$('.cart_footer_left_n').text()
+		$('.total').text("￥"+count+"元");
+		$('.goods_number').text("商品："+gcount);
+		var rule = $(this).prev().val();
+		var goods_id = rule.split('/')[1];
+        var goods_spec = rule.split('/')[0];
+		var goods_num = $(this).val();
+		
+        $.ajax({
+            type:"post",
+            url:"{:U('Cart/addCart')}",
+            data:{goods_id:goods_id,goods_spec:goods_spec,goods_num:goods_num},
+            success:function(res){
+            	console.log(res);
+                var data = JSON.parse(res);
+                if(data.status==1){
+                	 $.toast({text:data.msg});
+                }else{
+                	$.toast({text:data.msg});
+                }
+                flag2=true;
+            },
+            error:function(){
+                flag2=true;
+            }
+        });
+	})
+	
+	function  sure_remove(){
+		if(window.confirm('确定要删除购物车商品么？')){
+            return true;
+         }else{
+            return false;
+            }
+	}
+	$('.cart_btn_a').on('click',function(){
+		var t = sure_remove();
+
+	    if(!t){
+	    	return;
+	    }
+		var self = $(this);
+		var car_id = $(this).next().val();
+		$.post("{:U('remove_cart')}",{id:car_id},function(data){
+			if(data.status==1){
+				self.parents('.product_list1').remove();
+				var fright = $('.goods_info');
+		        var count = 0;
+		        var gcount = 0;
+		        fright.each(function(){
+		            var num = $(this).find('.number').val();
+		            var price = $(this).find('.prices').val();
+		            count += (num*price);
+		            gcount = Number(num)+Number(gcount);
+		        
+		        })
+		        $('.cart_footer_left_n').text()
+		        $('.total').text("￥"+count+"元");
+		        $('.goods_number').text("商品："+gcount);
+		        $.toast({text:"删除成功"});
+		        location.reload()
+			}
+		})
+	})
+	
+	$('.m_btn').on('click',function(){
+		  var fright = $('.goods_info');
+		  console.log(fright);
+		  if(fright.length==0){
+			  return;
+		  }
+		  var k = true;
+		  var t = $('.product_list1');
+		  $.each(t,function(i,x){
+			  var buy_num = $('.number').eq(i).val();
+			  var all_num = $('.stock').eq(i).text();
+			  buy_num = parseInt(buy_num);
+			  all_num = parseInt(getNum(all_num));
+			  if(buy_num>all_num){
+				  $.toast({text:"购买商品数量不可超过库存"});
+				  k = false;
+				  return;
+			  }
+		  })
+		  if(k==false){
+			  return;
+		  }
+		  $('#sure_buy').submit();
+		//top.location.href="{:U('cart2')}";
+	})
+	function getNum(text){
+		var value = text.replace(/[^0-9]/ig,""); 
+		return value;
+		}
+})
+</script>
+</body>
+</html>

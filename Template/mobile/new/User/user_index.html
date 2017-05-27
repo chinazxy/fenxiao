@@ -1,0 +1,81 @@
+<!doctype>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11">
+<meta name="renderer" content="webkit|ie-comp|ie-stand"> 
+<title>个人中心</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="__PUBLIC__/css/new/main.css" type="text/css">
+<script type="text/javascript" src="__PUBLIC__/js/new/jquery-1.9.1.min.js"></script>
+</head>
+
+<body>
+<div class="wrap">
+    <!--头部-->
+    <div class="header">
+        <div class="header_menu_i"><span></span></div>
+        <div class="header_right"><span class="icon icon_search">搜索</span><span class="icon icon_cart">购物车</span></div>
+        <div class="header_menu">
+            <div class="header_menu_1">
+                <div class="header_menu_m">类别<span></span></div>
+                <ul>
+                    <li>护肤</li><li>彩妆</li><li>男士</li>
+                </ul>
+            </div>
+            <div class="header_menu_1">
+                <div class="header_menu_m">系列<span></span></div>
+                <ul>
+                    <li>护肤</li><li>彩妆</li><li>男士</li>
+                </ul>
+            </div>
+            <div class="header_menu_1">
+                <div class="header_menu_m">经销商认证<span></span></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="mycenter">
+        <div class="my_center_head">
+            <div class="my_center_head_left">
+                <div><img src=""/></div>
+            </div>
+            <div class="my_center_head_right">
+                <h3>我的名称:<php>if(empty($user['username'])){</php>
+                   <input type='text' name='username' value='' />
+                <php>}else{echo $user['username'];}</php></h3>
+                <div>经销商等级：{$user.levelname}</div>
+                <div>
+                    <div><a href='#'>我的上级:</a><php>if(!empty($parent)){echo $parent['mobile'];}else{echo '总公司销售部';}</php></div>
+                    <div>资金帐户</div>
+                    <div><span>可用资金：￥{$user['user_money']}</span><span>冻结资金￥{$user['frozen_money']}</span><span>保证金￥{$user['pledge_money']}</span><a href='javascript:void(0);' class="icon">提现</a></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mycenter_menu">我的帐号<i></i></div>
+        <div class="mycenter_menu">帐号安全<i></i></div>
+        <div class="mycenter_menu">收货地址<i></i></div>
+        <div class="mycenter_menu">支付管理<i></i></div>
+        <div class="mycenter_menu">反馈意见<i></i></div>
+    </div>
+    
+    
+    <div class="footer">
+        <a class="icon icon_s"><i></i><span>产品</span></a>
+        <a class="icon icon_s"><i></i><span>订单</span></a>
+        <a class="icon icon_s"><i></i><span>通知</span></a>
+        <a class="icon icon_s"><i></i><span>我的</span></a>
+    </div>
+</div>
+<script type="text/javascript">
+var H = document.body.clientHeight;
+$('.H').css('height', H + 'px');
+$('.menu').click(function(){
+    $(this).toggleClass('on');
+})
+</script>
+</body>
+</html>

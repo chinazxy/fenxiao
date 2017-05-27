@@ -1,0 +1,71 @@
+<include file="Mypublic/header"/>
+<div style='height:50px;'></div>
+<style>
+.bg-white{background:#f5f5f5;}
+a{text-decoration:none;color:#333;}
+.v_nav{display:none;}
+</style>
+  <foreach name='lists' item='val'>
+   	<div class="z-address-box">
+		<div class="z-address-head clearfix">
+			<div class="z-address-name col-xs-6">{$val.consignee}</div>
+			<div class="z-address-phone col-xs-6 pull-right">{$val.mobile}</div>
+			<div class="z-address-ad col-xs-12">{$val.re_address}<span class='pull-right'>{$val.zipcode}</span></div>
+		</div>
+		<div class="z-address-footer clearfix">
+			<div class="col-xs-4"><input type='hidden' value='{$val.address_id}'><a class='change_default'><i  class="<php>if($val['is_default']==1){echo 'icon-check-circle-o';}else{ echo 'icon-circle-thin';}</php>"></i>&nbsp;默认</a></div>
+			<div class="col-xs-4"><a href="{:U('edit_address')}?id={$val.address_id}'"><i class="icon-edit"></i>&nbsp;编辑</a></div>
+			<div class="col-xs-4"><input type='hidden' value='{$val.address_id}'><a class='delele_address'><i class="icon-trash"></i>&nbsp;删除</a></div>
+		</div>
+	</div>
+  </foreach>
+</div>
+<div class="col-xs-12"style="padding-top:100PX;PADDING-BOTTOM:50px"><a href="{:U('add_address')}" class="btn btn-block btn-info">新建收货地址</a></div>
+ <include file="Public/footer"/> 
+<script type="text/javascript">
+var H = document.body.clientHeight;
+$('.H').css('height', H + 'px');
+
+$('.menu').click(function(){
+    $(this).toggleClass('on');
+})
+$(function(){
+	$('.change_default').on('click',is_default);
+	function is_default(){
+		//$('.change_default').removeClass();
+		$('.change_default').find('i').removeClass().addClass('icon-circle-thin');
+		$(this).find('i').removeClass().addClass('icon-check-circle-o');
+		var address_id = $(this).prev().val();
+		$.get("{:U('set_default')}",{id:address_id},function(data){
+			console.log(data)
+			if(data.status==1){
+			      $.toast({text:"设置默认成功"});
+			}
+		})
+	}
+	   function  sure_remove(){
+	        if(window.confirm('确定删除收货地址么？')){
+	            return true;
+	         }else{
+	            return false;
+	            }
+	    }
+	$('.delele_address').on('click',function(){
+		
+		var t = sure_remove();
+		if(!t){
+			return;
+		}
+		var address_id = $(this).prev().val();
+		var self = $(this);
+		$.get("{:U('del_address')}",{id:address_id},function(data){
+			if(data.status==1){
+				self.parents('.z-address-box').remove();
+			}
+		})
+	})
+})
+</script>
+<include file="Public/footer_nav"/>
+</body>
+</html>

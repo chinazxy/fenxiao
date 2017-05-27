@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+<link href="__STATIC__/css/zui.min.css" rel="stylesheet">
+<link href="__STATIC__/css/m.css" rel="stylesheet">
+<style>
+</style>
+</head>
+
+<body>
+<div id="pageContent">
+    <div class="jxs_cert">
+        <div class="jxs_cert_box">
+            <div class="text-center"><img src="__STATIC__/img/logo_sq.png"/></div>
+            <div>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;兹授权<span id="name">{$user.username}</span>为厦门诚享东方化妆品有限公司<tt id="brand">“韩菲诗”、“赛姬”、“伊索芙”、“SKINBANK”</tt>系列产品的<span id="jxsdj">{$user.level}</span>代理；公司认证代理资料：认证手机号<span id="wiexin">{$user.mobile}</span>；认证支付宝<span id="zfb">{$user.account}</span>我公司承诺为其提供优质的产品和售后服务。对未获得合法授权（或授权过期）的代理销售本公司产品，公司不保证其产品的真实性,合法性。</p> 
+                <p>授权有效：<br>&nbsp;&nbsp;&nbsp;&nbsp;<i id="sy" style="width:35px;"><php>echo date('Y',$user['reg_time']);</php></i>年<i id="sm"><php>echo date('m',$user['reg_time']);</php></i>月<i id="sd"><php>echo date('d',$user['reg_time']);</php></i>日至<i id="ey" style="width:35px;"><php>echo (date('Y',$user['reg_time'])+1);</php></i>年<i id="em"><php>echo date('m',$user['reg_time']);</php></i>月<i id="ed"><php>echo date('d',$user['reg_time']);</php></i>日</p>
+            </div>
+            <div class="j_footer">
+                <img src="__STATIC__/img/ewm.jpg" style="position:absolute;bottom:0;left:50%;margin-left:-150px;width:80px;">  
+                <img src="__STATIC__/img/103.png" style="position:absolute;bottom:5px;left:50%;margin-left:-50px;">
+                <img src="__STATIC__/img/z.png" style="position:absolute;bottom:-20px;left:50%;margin-left:10px;">
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="__STATIC__/js/jquery.js"></script>
+<script>
+var winH = $(window).innerHeight();
+$('.jxs_certificate').css('min-height',winH + 'px')
+</script>
+</body>
+</html>

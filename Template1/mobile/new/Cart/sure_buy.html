@@ -1,0 +1,92 @@
+<include file="Mypublic/header"/>
+<div style="height:50px;" ></div>
+<div id="pageContent">
+<form id='bulid' action="{:U('bulid_order')}" method='POST'>
+	<div class="centent_box z-order_confirm clearfix">
+		<div class="z-div col-xs-12">订单金额<span class="pull-right" style="color:#000">￥{$count}</span></div>
+		<input type='hidden'  value="{$count}" name="count" />
+		<input class='is_cart' type='hidden' value='{$cart}' name="is_cart"/>
+		<div class="z-div col-xs-12 z-shopa"><a>订单备注<i class="icon-chevron-right pull-right"></i></a>
+        	<div class="z-shop_list_box">
+            	<div class="z-remark"><textarea name='mark' id='mark' class="form-control" rows="3" placeholder="可以输入多行文本"></textarea></div>
+            </div>
+        </div>
+        
+        <div class="z-div col-xs-12 z-shopa open"><a>商品清单<i class="icon-chevron-right pull-right"></i><i class="icon-chevron-down pull-right"></i></a>
+        	<div class="z-shop_list_box">
+        	<foreach name='goodsList' item='goods'>
+            	<div class="z-order-dllist z-cart-box">
+                    <div class="z-cart-p clearfix">
+                        <div class="z-cart-p_img col-xs-4"><img class="img-responsive" src="{$goods.original_img}"></div>
+                        <div class="z-cart-p-content col-xs-8">
+                            <h3 class="z-p-name text-ellipsis">{$goods.goods_name}</h3>
+                            <p class="z-p-spec"><strong>规格：</strong><span>{$goods.specname}</span></p>
+							 <div class="text-muted">数量：<input type="text" value="{$goods.number}" class="number"></div>
+							<input type="hidden" class="stock" value="{$goods.stock}">
+                            <p class="z-p-price text-info">￥{$goods.price}</p>
+                        </div>
+                    </div>
+                </div>
+                <input type='hidden' name="goods_info[]" value="{$goods.goods_id}/{$goods.spec_key}/{$goods.number}" />
+              </foreach>
+            </div>
+        </div>
+		<div class="z-div col-xs-12 z-shopa"><a>收货信息<i class="icon-chevron-right pull-right"></i><i class="icon-chevron-down pull-right"></i></a>
+        	<div class="z-shop_list_box z-shop_consignee">
+			<foreach name="addressList"  item='add'>
+                <div class="content text-muted consignee <php>if($add['is_default']==1){ echo 'active'; }</php>">
+                    <div class="clearfix">
+                        <div class="col-xs-6">收货人：{$add.consignee}</div><div class="col-xs-2"></div><div class="col-xs-4">{$add.mobile}</div>
+                        <div class="col-xs-12">{$add.re_address}</div>
+                        <span style="display:none">{$add.address_id}</span>
+                    </div>
+                </div>
+	        </foreach>
+            </div>
+		</div>
+	</div>
+
+<div style="height:60px;" ></div>
+
+	<div class="z-footer">
+		<div class="col-xs-12 z-order-footrt">
+			<div class="col-xs-7">应付金额：<strong class="text-primary">￥{$count}</strong></div>
+			<a id='submit' class="btn btn-primary pull-right">提交订单</a>
+		</div>
+	</div>
+	 <input  class='ddd'  type='hidden' name='address_id' value="{$address.address_id}"/>
+</form>
+</div>
+<!--<div class="toast"><div class="toast-content"></div></div>-->
+<script src="__PUBLIC__/ihtml/js/zui.min.js"></script>
+<script>
+$('.z-shopa a').on('click',function(){
+	if($(this).parent().hasClass('open')){
+		$(this).parent().removeClass('open');
+	}else{
+		$(this).parent().addClass('open');
+	}
+})
+$('.z-shop_consignee > div').on('click',function(){
+	$('.z-shop_consignee > div').removeClass('active');
+	$(this).addClass('active');
+	var address_id = $(this).find('div span').text();
+	$('.ddd').val(address_id);
+})
+$(function(){
+	$('#submit').on('click',function(){
+		var num = $('#is_login').val();
+		var number = Number($('.number').val());
+		var stock = Number($('.stock').val());
+		if (number > stock){
+			$.toast({text:"所选商品库存不足"});
+			return;
+		}else{
+			$('#bulid').submit();
+		}
+
+	})
+})
+</script>
+</body>
+</html>

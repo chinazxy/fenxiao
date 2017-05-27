@@ -1,0 +1,70 @@
+<include file="Public/min-header"/>
+
+ <section class="content">
+       <div class="table-responsive">
+            
+             <table class="table table-bordered table-hover">
+                <thead>
+            <tr>
+              
+             
+                <td class="text-left">
+                    <a href="javascript:sort('goods_name');">商品名称</a>
+                </td>
+                                           
+                <td class="text-left">
+                    <a href="javascript:sort('cat_id');">分类</a>
+                </td>
+
+                <td class="text-left">
+                    <a href="javascript:sort('key_name');">规格属性</a>
+                </td>
+              <td class="text-left">
+                    <a href="javascript:void(0);">库存</a>
+                </td>
+
+            </tr>
+            </thead>
+              <tbody>
+                <foreach name='list' item='l'>
+                    <tr>
+               
+                        <td>{$l.goods_name}</td>
+                        <td>{$l.cate_name}</td>
+                        <td>{$l.key_name}</td>
+                        <td><input type='hidden' value='{$l.spec_id}'><input class='stock' type='number' value='{$l.stock}'><input type='hidden' value='{$l.goods_id}'></td>
+                    </tr>
+                </foreach>
+              </tbody>          
+             </table>
+      <div class="table-responsive">
+ </section>
+<div class="kc" style="width:280px;height:100px;line-height:100px;text-align:center;font-size:24px;border:1px solid #ccc;border-radius:6px;background:#fff;position:fixed;top:50%;left:50%;margin:-50px 0 0 -140px;display:none;">库存修改成功</div>
+ <script>
+ $(function(){
+	 $('.stock').blur(function(){
+		
+	     var re =/^(0|[1-9]\d*)$/;
+         if(!re.test($(this).val())){alert('请输入正确库存');return;}
+
+		 var stock = $(this).val();
+		 var spec_id = $(this).prev().val();
+		 console.log(spec_id);
+		
+		 var goods_id = $(this).next().val();
+		 console.log(goods_id);
+		 $.get("{:U('change_stock')}",{spec_id:spec_id,goods_id:goods_id,stock:stock},function(data){
+			
+			if(data!=1){
+				alert('修改库存失败');
+			}else{
+        $('.kc').show();
+        setTimeout(function(){
+          $('.kc').hide()
+        },700)
+      }
+		 })
+	 })
+ })
+ 
+ </script>

@@ -1,0 +1,3154 @@
+﻿执行日期：20170412112003
+bzj20170411105348230
+执行日期：20170412112003
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=230
+执行日期：20170412112003
+1
+执行日期：20170412112003
+insert into up_bzj (time,money,uid) values('1491967203','0.01',230)
+执行日期：20170412112401
+bzj20170411105726233
+执行日期：20170412112401
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=233
+执行日期：20170412112401
+1
+执行日期：20170412112401
+insert into up_bzj (time,money,uid) values('1491967441','0.01',233)
+执行日期：20170412112626
+1704111100082523
+执行日期：20170412112626
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(23,,1491967586,'支付宝购买商品',)
+执行日期：20170412114239
+bzj1704111116275158
+执行日期：20170412114239
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=58
+执行日期：20170412114239
+1
+执行日期：20170412114239
+insert into up_bzj (time,money,uid) values('1491968559','0.01',58)
+执行日期：20170412114328
+bzj1704111116507159
+执行日期：20170412114328
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=59
+执行日期：20170412114328
+1
+执行日期：20170412114328
+insert into up_bzj (time,money,uid) values('1491968608','0.01',59)
+执行日期：20170412115021
+bzj1704111123491717
+执行日期：20170412115021
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=17
+执行日期：20170412115021
+1
+执行日期：20170412115021
+insert into up_bzj (time,money,uid) values('1491969021','0.01',17)
+执行日期：20170412115458
+bzj20170411112808235
+执行日期：20170412115458
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=235
+执行日期：20170412115458
+1
+执行日期：20170412115458
+insert into up_bzj (time,money,uid) values('1491969298','0.01',235)
+执行日期：20170412120139
+bzj1704111134597990
+执行日期：20170412120139
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=90
+执行日期：20170412120139
+1
+执行日期：20170412120139
+insert into up_bzj (time,money,uid) values('1491969699','0.01',90)
+执行日期：20170412120524
+bzj1704111138331103
+执行日期：20170412120524
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=03
+执行日期：20170412120524
+1
+执行日期：20170412120524
+insert into up_bzj (time,money,uid) values('1491969924','0.01',03)
+执行日期：20170412120602
+bzj1704111139008476
+执行日期：20170412120602
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=76
+执行日期：20170412120602
+1
+执行日期：20170412120602
+insert into up_bzj (time,money,uid) values('1491969962','0.01',76)
+执行日期：20170412121156
+bzj1704111144469874
+执行日期：20170412121156
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=74
+执行日期：20170412121156
+1
+执行日期：20170412121156
+insert into up_bzj (time,money,uid) values('1491970316','0.01',74)
+执行日期：20170412125055
+bzj20170411122230236
+执行日期：20170412125055
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=236
+执行日期：20170412125055
+1
+执行日期：20170412125055
+insert into up_bzj (time,money,uid) values('1491972655','0.01',236)
+执行日期：20170412125501
+bzj1704111226303686
+执行日期：20170412125501
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=86
+执行日期：20170412125501
+1
+执行日期：20170412125501
+insert into up_bzj (time,money,uid) values('1491972901','0.01',86)
+执行日期：20170412125835
+bzj20170411123110236
+执行日期：20170412125835
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=236
+执行日期：20170412125836
+1
+执行日期：20170412125836
+insert into up_bzj (time,money,uid) values('1491973116','0.01',236)
+执行日期：20170412142341
+bzj20170411135731237
+执行日期：20170412142341
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=237
+执行日期：20170412142341
+1
+执行日期：20170412142341
+insert into up_bzj (time,money,uid) values('1491978221','0.01',237)
+执行日期：20170412143450
+1704111408397064
+执行日期：20170412143450
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(64,300.00,1491978890,'支付宝购买商品',92)
+执行日期：20170412143450
+update up_user_goods set stock=stock-10 where spec_id =129 and uid= and goods_id=57
+执行日期：20170425135302
+bzj20170425135224260
+执行日期：20170425135302
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=260
+执行日期：20170425135302
+1
+执行日期：20170425135302
+insert into up_bzj (time,money,uid) values('1493099582','0.01',260)
+执行日期：20170425135557
+wcz1704251355443024
+执行日期：20170425135557
+update up_users set user_money = user_money+0.01 where user_id=24
+执行日期：20170425135557
+insert into up_user_rechage (user_id,money,time) values(24,'0.01','1493099757')
+执行日期：20170425135557
+wcz1704251355443024
+执行日期：20170425135943
+bzj20170425135224260
+执行日期：20170425135943
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=260
+执行日期：20170425135943
+1
+执行日期：20170425135943
+insert into up_bzj (time,money,uid) values('1493099983','0.01',260)
+执行日期：20170425140922
+bzj20170425135224260
+执行日期：20170425140922
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=260
+执行日期：20170425140922
+1
+执行日期：20170425140922
+insert into up_bzj (time,money,uid) values('1493100562','0.01',260)
+执行日期：20170425141557
+wcz1704251415183283
+执行日期：20170425141557
+update up_users set user_money = user_money+0.01 where user_id=83
+执行日期：20170425141557
+insert into up_user_rechage (user_id,money,time) values(83,'0.01','1493100957')
+执行日期：20170425141557
+wcz1704251415183283
+执行日期：20170425141730
+wcz1704251417021606
+执行日期：20170425141730
+update up_users set user_money = user_money+0.01 where user_id=06
+执行日期：20170425141730
+insert into up_user_rechage (user_id,money,time) values(06,'0.01','1493101050')
+执行日期：20170425141730
+wcz1704251417021606
+执行日期：20170425142044
+bzj20170425135224260
+执行日期：20170425142044
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=260
+执行日期：20170425142044
+1
+执行日期：20170425142044
+insert into up_bzj (time,money,uid) values('1493101244','0.01',260)
+执行日期：20170425142800
+bzj20170425142746264
+执行日期：20170425142800
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=264
+执行日期：20170425142800
+1
+执行日期：20170425142800
+insert into up_bzj (time,money,uid) values('1493101680','0.01',264)
+执行日期：20170425143447
+bzj20170425142746264
+执行日期：20170425143447
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=264
+执行日期：20170425143447
+1
+执行日期：20170425143447
+insert into up_bzj (time,money,uid) values('1493102087','0.01',264)
+执行日期：20170425144544
+bzj20170425142746264
+执行日期：20170425144544
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=264
+执行日期：20170425144544
+1
+执行日期：20170425144544
+insert into up_bzj (time,money,uid) values('1493102744','0.01',264)
+执行日期：20170425145547
+bzj20170425142746264
+执行日期：20170425145547
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=264
+执行日期：20170425145547
+1
+执行日期：20170425145547
+insert into up_bzj (time,money,uid) values('1493103347','0.01',264)
+执行日期：20170425150740
+wcz1704251507278755
+执行日期：20170425150740
+update up_users set user_money = user_money+0.01 where user_id=55
+执行日期：20170425150740
+insert into up_user_rechage (user_id,money,time) values(55,'0.01','1493104060')
+执行日期：20170425150740
+wcz1704251507278755
+执行日期：20170425151838
+bzj20170425135224260
+执行日期：20170425151838
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=260
+执行日期：20170425151838
+1
+执行日期：20170425151838
+insert into up_bzj (time,money,uid) values('1493104718','0.01',260)
+执行日期：20170425153338
+wcz1704251532420590
+执行日期：20170425153338
+update up_users set user_money = user_money+0.01 where user_id=90
+执行日期：20170425153338
+insert into up_user_rechage (user_id,money,time) values(90,'0.01','1493105618')
+执行日期：20170425153338
+wcz1704251532420590
+执行日期：20170425153726
+wcz1704251537150250
+执行日期：20170425153726
+update up_users set user_money = user_money+0.01 where user_id=50
+执行日期：20170425153726
+insert into up_user_rechage (user_id,money,time) values(50,'0.01','1493105846')
+执行日期：20170425153726
+wcz1704251537150250
+执行日期：20170425155519
+bzj20170425142746264
+执行日期：20170425155519
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=264
+执行日期：20170425155519
+1
+执行日期：20170425155519
+insert into up_bzj (time,money,uid) values('1493106919','0.01',264)
+执行日期：20170425171912
+bzj20170425135224260
+执行日期：20170425171912
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=260
+执行日期：20170425171912
+1
+执行日期：20170425171912
+insert into up_bzj (time,money,uid) values('1493111952','0.01',260)
+执行日期：20170425175242
+bzj20170425142746264
+执行日期：20170425175242
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=264
+执行日期：20170425175242
+1
+执行日期：20170425175242
+insert into up_bzj (time,money,uid) values('1493113962','0.01',264)
+执行日期：20170425212645
+wcz1704252126203030
+执行日期：20170425212645
+update up_users set user_money = user_money+0.01 where user_id=30
+执行日期：20170425212645
+insert into up_user_rechage (user_id,money,time) values(30,'0.01','1493126805')
+执行日期：20170425212645
+wcz1704252126203030
+执行日期：20170425212915
+wcz1704252129072317
+执行日期：20170425212915
+update up_users set user_money = user_money+0.01 where user_id=17
+执行日期：20170425212915
+insert into up_user_rechage (user_id,money,time) values(17,'0.01','1493126955')
+执行日期：20170425212915
+wcz1704252129072317
+执行日期：20170425213142
+wcz20170425213129236
+执行日期：20170425213142
+update up_users set user_money = user_money+0.01 where user_id=236
+执行日期：20170425213142
+insert into up_user_rechage (user_id,money,time) values(236,'0.01','1493127102')
+执行日期：20170425213142
+wcz20170425213129236
+执行日期：20170425213315
+wcz1704252126203030
+执行日期：20170425213315
+update up_users set user_money = user_money+0.01 where user_id=30
+执行日期：20170425213315
+insert into up_user_rechage (user_id,money,time) values(30,'0.01','1493127195')
+执行日期：20170425213315
+wcz1704252126203030
+执行日期：20170425231802
+bzj20170425135224260
+执行日期：20170425231802
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=260
+执行日期：20170425231802
+1
+执行日期：20170425231802
+insert into up_bzj (time,money,uid) values('1493133482','0.01',260)
+执行日期：20170425235210
+bzj20170425142746264
+执行日期：20170425235210
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=264
+执行日期：20170425235210
+1
+执行日期：20170425235210
+insert into up_bzj (time,money,uid) values('1493135530','0.01',264)
+执行日期：20170426085929
+bzj20170426085919274
+执行日期：20170426085929
+update up_users set is_lock=2 , pledge_money=pledge_money+0.02 where user_id=274
+执行日期：20170426085929
+1
+执行日期：20170426085929
+insert into up_bzj (time,money,uid) values('1493168369','0.02',274)
+执行日期：20170426090345
+1704260903294205
+执行日期：20170426090345
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(05,600.00,1493168625,'支付宝购买商品',312)
+执行日期：20170426090345
+update up_user_goods set stock=stock-200 where spec_id =130 and uid= and goods_id=58
+执行日期：20170426090554
+bzj20170426085919274
+执行日期：20170426090554
+update up_users set is_lock=2 , pledge_money=pledge_money+0.02 where user_id=274
+执行日期：20170426090554
+1
+执行日期：20170426090554
+insert into up_bzj (time,money,uid) values('1493168754','0.02',274)
+执行日期：20170426091004
+1704260903294205
+执行日期：20170426091004
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(05,600.00,1493169004,'支付宝购买商品',312)
+执行日期：20170426091004
+update up_user_goods set stock=stock-200 where spec_id =130 and uid= and goods_id=58
+执行日期：20170426091609
+bzj20170426085919274
+执行日期：20170426091609
+update up_users set is_lock=2 , pledge_money=pledge_money+0.02 where user_id=274
+执行日期：20170426091609
+1
+执行日期：20170426091609
+insert into up_bzj (time,money,uid) values('1493169369','0.02',274)
+执行日期：20170426092001
+1704260903294205
+执行日期：20170426092001
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(05,600.00,1493169601,'支付宝购买商品',312)
+执行日期：20170426092001
+update up_user_goods set stock=stock-200 where spec_id =130 and uid= and goods_id=58
+执行日期：20170426092254
+1704260922364729
+执行日期：20170426092254
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(29,600.00,1493169774,'支付宝购买商品',313)
+执行日期：20170426092254
+update up_user_goods set stock=stock-10 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426092302
+bzj20170426085919274
+执行日期：20170426092302
+update up_users set is_lock=2 , pledge_money=pledge_money+0.02 where user_id=274
+执行日期：20170426092302
+1
+执行日期：20170426092302
+insert into up_bzj (time,money,uid) values('1493169782','0.02',274)
+执行日期：20170426092409
+1704260923553032
+执行日期：20170426092409
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(32,6000.00,1493169849,'支付宝购买商品',314)
+执行日期：20170426092409
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426092542
+1704260925297627
+执行日期：20170426092542
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(27,6000.00,1493169942,'支付宝购买商品',315)
+执行日期：20170426092542
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426092709
+1704260903294205
+执行日期：20170426092709
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(05,600.00,1493170029,'支付宝购买商品',312)
+执行日期：20170426092709
+update up_user_goods set stock=stock-200 where spec_id =130 and uid= and goods_id=58
+执行日期：20170426092730
+1704260927061604
+执行日期：20170426092730
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(04,60.00,1493170050,'支付宝购买商品',316)
+执行日期：20170426092730
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426092815
+1704260927488942
+执行日期：20170426092815
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(42,60.00,1493170095,'支付宝购买商品',317)
+执行日期：20170426092815
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426092818
+bzj20170426092809275
+执行日期：20170426092818
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=275
+执行日期：20170426092818
+1
+执行日期：20170426092818
+insert into up_bzj (time,money,uid) values('1493170098','0.01',275)
+执行日期：20170426092911
+1704260922364729
+执行日期：20170426092911
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(29,600.00,1493170151,'支付宝购买商品',313)
+执行日期：20170426092911
+update up_user_goods set stock=stock-10 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426092930
+1704260929177595
+执行日期：20170426092930
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(95,6000.00,1493170170,'支付宝购买商品',318)
+执行日期：20170426092930
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426093033
+1704260923553032
+执行日期：20170426093033
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(32,6000.00,1493170233,'支付宝购买商品',314)
+执行日期：20170426093033
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426093227
+1704260925297627
+执行日期：20170426093227
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(27,6000.00,1493170347,'支付宝购买商品',315)
+执行日期：20170426093227
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426093429
+1704260927488942
+执行日期：20170426093429
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(42,60.00,1493170469,'支付宝购买商品',317)
+执行日期：20170426093429
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426093434
+1704260927061604
+执行日期：20170426093434
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(04,60.00,1493170474,'支付宝购买商品',316)
+执行日期：20170426093434
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426093511
+bzj20170426092809275
+执行日期：20170426093511
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=275
+执行日期：20170426093511
+1
+执行日期：20170426093511
+insert into up_bzj (time,money,uid) values('1493170511','0.01',275)
+执行日期：20170426093624
+1704260929177595
+执行日期：20170426093624
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(95,6000.00,1493170584,'支付宝购买商品',318)
+执行日期：20170426093624
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426093803
+bzj20170426093720276
+执行日期：20170426093803
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=276
+执行日期：20170426093803
+1
+执行日期：20170426093803
+insert into up_bzj (time,money,uid) values('1493170683','0.01',276)
+执行日期：20170426093902
+1704260922364729
+执行日期：20170426093902
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(29,600.00,1493170742,'支付宝购买商品',313)
+执行日期：20170426093902
+update up_user_goods set stock=stock-10 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426093939
+1704260939212153
+执行日期：20170426093939
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(53,4000.00,1493170779,'支付宝购买商品',321)
+执行日期：20170426093939
+update up_user_goods set stock=stock-100 where spec_id =129 and uid= and goods_id=57
+执行日期：20170426094057
+1704260940186075
+执行日期：20170426094057
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(75,750.00,1493170857,'支付宝购买商品',322)
+执行日期：20170426094057
+update up_user_goods set stock=stock-10 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426094105
+1704260923553032
+执行日期：20170426094105
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(32,6000.00,1493170865,'支付宝购买商品',314)
+执行日期：20170426094105
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426094242
+1704260925297627
+执行日期：20170426094242
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(27,6000.00,1493170962,'支付宝购买商品',315)
+执行日期：20170426094242
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426094336
+1704260943052012
+执行日期：20170426094336
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(12,7500.00,1493171016,'支付宝购买商品',323)
+执行日期：20170426094336
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426094436
+1704260944030893
+执行日期：20170426094436
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(93,400.00,1493171076,'支付宝购买商品',324)
+执行日期：20170426094436
+update up_user_goods set stock=stock-10 where spec_id =129 and uid= and goods_id=51
+执行日期：20170426094438
+bzj20170426093720276
+执行日期：20170426094438
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=276
+执行日期：20170426094438
+1
+执行日期：20170426094438
+insert into up_bzj (time,money,uid) values('1493171078','0.01',276)
+执行日期：20170426094520
+bzj20170426092809275
+执行日期：20170426094520
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=275
+执行日期：20170426094520
+1
+执行日期：20170426094520
+insert into up_bzj (time,money,uid) values('1493171120','0.01',275)
+执行日期：20170426094522
+1704260927061604
+执行日期：20170426094522
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(04,60.00,1493171122,'支付宝购买商品',316)
+执行日期：20170426094522
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426094531
+1704260927488942
+执行日期：20170426094531
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(42,60.00,1493171131,'支付宝购买商品',317)
+执行日期：20170426094531
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426094608
+1704260929177595
+执行日期：20170426094608
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(95,6000.00,1493171168,'支付宝购买商品',318)
+执行日期：20170426094608
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426094639
+1704260939212153
+执行日期：20170426094639
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(53,4000.00,1493171199,'支付宝购买商品',321)
+执行日期：20170426094639
+update up_user_goods set stock=stock-100 where spec_id =129 and uid= and goods_id=57
+执行日期：20170426094739
+1704260940186075
+执行日期：20170426094739
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(75,750.00,1493171259,'支付宝购买商品',322)
+执行日期：20170426094739
+update up_user_goods set stock=stock-10 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426094921
+1704260925297627
+执行日期：20170426094921
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(27,6000.00,1493171361,'支付宝购买商品',315)
+执行日期：20170426094921
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426095023
+1704260922364729
+执行日期：20170426095023
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(29,600.00,1493171423,'支付宝购买商品',313)
+执行日期：20170426095023
+update up_user_goods set stock=stock-10 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426095044
+1704260943052012
+执行日期：20170426095044
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(12,7500.00,1493171444,'支付宝购买商品',323)
+执行日期：20170426095044
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426095104
+1704260923553032
+执行日期：20170426095104
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(32,6000.00,1493171464,'支付宝购买商品',314)
+执行日期：20170426095104
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426095119
+1704260944030893
+执行日期：20170426095119
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(93,400.00,1493171479,'支付宝购买商品',324)
+执行日期：20170426095119
+update up_user_goods set stock=stock-10 where spec_id =129 and uid= and goods_id=51
+执行日期：20170426095124
+1704260927061604
+执行日期：20170426095124
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(04,60.00,1493171484,'支付宝购买商品',316)
+执行日期：20170426095124
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426095205
+bzj20170426092809275
+执行日期：20170426095205
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=275
+执行日期：20170426095205
+1
+执行日期：20170426095205
+insert into up_bzj (time,money,uid) values('1493171525','0.01',275)
+执行日期：20170426095206
+1704260927488942
+执行日期：20170426095206
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(42,60.00,1493171526,'支付宝购买商品',317)
+执行日期：20170426095206
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426095340
+1704260929177595
+执行日期：20170426095340
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(95,6000.00,1493171620,'支付宝购买商品',318)
+执行日期：20170426095340
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426095517
+bzj20170426093720276
+执行日期：20170426095517
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=276
+执行日期：20170426095517
+1
+执行日期：20170426095517
+insert into up_bzj (time,money,uid) values('1493171717','0.01',276)
+执行日期：20170426095707
+1704260939212153
+执行日期：20170426095707
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(53,4000.00,1493171827,'支付宝购买商品',321)
+执行日期：20170426095707
+update up_user_goods set stock=stock-100 where spec_id =129 and uid= and goods_id=57
+执行日期：20170426095830
+1704260940186075
+执行日期：20170426095830
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(75,750.00,1493171910,'支付宝购买商品',322)
+执行日期：20170426095830
+update up_user_goods set stock=stock-10 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426100144
+1704260943052012
+执行日期：20170426100144
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(12,7500.00,1493172104,'支付宝购买商品',323)
+执行日期：20170426100144
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426100225
+1704260944030893
+执行日期：20170426100225
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(93,400.00,1493172145,'支付宝购买商品',324)
+执行日期：20170426100225
+update up_user_goods set stock=stock-10 where spec_id =129 and uid= and goods_id=51
+执行日期：20170426100239
+bzj20170426093720276
+执行日期：20170426100239
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=276
+执行日期：20170426100239
+1
+执行日期：20170426100239
+insert into up_bzj (time,money,uid) values('1493172159','0.01',276)
+执行日期：20170426100339
+1704260939212153
+执行日期：20170426100339
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(53,4000.00,1493172219,'支付宝购买商品',321)
+执行日期：20170426100339
+update up_user_goods set stock=stock-100 where spec_id =129 and uid= and goods_id=57
+执行日期：20170426100712
+1704260943052012
+执行日期：20170426100712
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(12,7500.00,1493172432,'支付宝购买商品',323)
+执行日期：20170426100712
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426100812
+1704260944030893
+执行日期：20170426100812
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(93,400.00,1493172492,'支付宝购买商品',324)
+执行日期：20170426100812
+update up_user_goods set stock=stock-10 where spec_id =129 and uid= and goods_id=51
+执行日期：20170426100941
+1704260940186075
+执行日期：20170426100941
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(75,750.00,1493172581,'支付宝购买商品',322)
+执行日期：20170426100941
+update up_user_goods set stock=stock-10 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426102644
+bzj20170426085919274
+执行日期：20170426102644
+update up_users set is_lock=2 , pledge_money=pledge_money+0.02 where user_id=274
+执行日期：20170426102644
+1
+执行日期：20170426102644
+insert into up_bzj (time,money,uid) values('1493173604','0.02',274)
+执行日期：20170426103009
+1704260903294205
+执行日期：20170426103009
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(05,600.00,1493173809,'支付宝购买商品',312)
+执行日期：20170426103009
+update up_user_goods set stock=stock-200 where spec_id =130 and uid= and goods_id=58
+执行日期：20170426104919
+1704260922364729
+执行日期：20170426104919
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(29,600.00,1493174959,'支付宝购买商品',313)
+执行日期：20170426104919
+update up_user_goods set stock=stock-10 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426105027
+1704260923553032
+执行日期：20170426105027
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(32,6000.00,1493175027,'支付宝购买商品',314)
+执行日期：20170426105027
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426105127
+1704260927061604
+执行日期：20170426105127
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(04,60.00,1493175087,'支付宝购买商品',316)
+执行日期：20170426105127
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426105212
+1704260925297627
+执行日期：20170426105212
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(27,6000.00,1493175132,'支付宝购买商品',315)
+执行日期：20170426105212
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426105519
+bzj20170426092809275
+执行日期：20170426105519
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=275
+执行日期：20170426105519
+1
+执行日期：20170426105519
+insert into up_bzj (time,money,uid) values('1493175319','0.01',275)
+执行日期：20170426105559
+1704260929177595
+执行日期：20170426105559
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(95,6000.00,1493175359,'支付宝购买商品',318)
+执行日期：20170426105559
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426105622
+bzj20170426105538281
+执行日期：20170426105622
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=281
+执行日期：20170426105622
+1
+执行日期：20170426105622
+insert into up_bzj (time,money,uid) values('1493175382','0.01',281)
+执行日期：20170426105644
+1704260927488942
+执行日期：20170426105644
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(42,60.00,1493175404,'支付宝购买商品',317)
+执行日期：20170426105644
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426105700
+1704261056265780
+执行日期：20170426105700
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(80,7500.00,1493175420,'支付宝购买商品',417)
+执行日期：20170426105700
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426105852
+1704261058114734
+执行日期：20170426105852
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(34,5500.00,1493175532,'支付宝购买商品',418)
+执行日期：20170426105852
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426110127
+1704261100417076
+执行日期：20170426110127
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(76,3960.00,1493175687,'支付宝购买商品',421)
+执行日期：20170426110127
+update up_user_goods set stock=stock-99 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426110216
+1704261101536376
+执行日期：20170426110216
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(76,400.00,1493175736,'支付宝购买商品',422)
+执行日期：20170426110216
+update up_user_goods set stock=stock-10 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426110233
+bzj20170426093720276
+执行日期：20170426110233
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=276
+执行日期：20170426110233
+1
+执行日期：20170426110233
+insert into up_bzj (time,money,uid) values('1493175753','0.01',276)
+执行日期：20170426110301
+bzj20170426105538281
+执行日期：20170426110301
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=281
+执行日期：20170426110301
+1
+执行日期：20170426110301
+insert into up_bzj (time,money,uid) values('1493175781','0.01',281)
+执行日期：20170426110333
+1704260939212153
+执行日期：20170426110333
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(53,4000.00,1493175813,'支付宝购买商品',321)
+执行日期：20170426110333
+update up_user_goods set stock=stock-100 where spec_id =129 and uid= and goods_id=57
+执行日期：20170426110333
+1704261056265780
+执行日期：20170426110333
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(80,7500.00,1493175813,'支付宝购买商品',417)
+执行日期：20170426110333
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426110347
+bzj20170426110337282
+执行日期：20170426110347
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=282
+执行日期：20170426110347
+1
+执行日期：20170426110347
+insert into up_bzj (time,money,uid) values('1493175827','0.01',282)
+执行日期：20170426110509
+1704261058114734
+执行日期：20170426110509
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(34,5500.00,1493175909,'支付宝购买商品',418)
+执行日期：20170426110509
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426110509
+1704260940186075
+执行日期：20170426110509
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(75,750.00,1493175909,'支付宝购买商品',322)
+执行日期：20170426110509
+update up_user_goods set stock=stock-10 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426110744
+1704260943052012
+执行日期：20170426110744
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(12,7500.00,1493176064,'支付宝购买商品',323)
+执行日期：20170426110744
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426110825
+1704260944030893
+执行日期：20170426110825
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(93,400.00,1493176105,'支付宝购买商品',324)
+执行日期：20170426110825
+update up_user_goods set stock=stock-10 where spec_id =129 and uid= and goods_id=51
+执行日期：20170426110832
+1704261101536376
+执行日期：20170426110832
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(76,400.00,1493176112,'支付宝购买商品',422)
+执行日期：20170426110832
+update up_user_goods set stock=stock-10 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426110835
+1704261100417076
+执行日期：20170426110835
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(76,3960.00,1493176115,'支付宝购买商品',421)
+执行日期：20170426110835
+update up_user_goods set stock=stock-99 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426111007
+bzj20170426110337282
+执行日期：20170426111007
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=282
+执行日期：20170426111007
+1
+执行日期：20170426111007
+insert into up_bzj (time,money,uid) values('1493176207','0.01',282)
+执行日期：20170426111409
+1704261056265780
+执行日期：20170426111409
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(80,7500.00,1493176449,'支付宝购买商品',417)
+执行日期：20170426111409
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426111412
+bzj20170426105538281
+执行日期：20170426111412
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=281
+执行日期：20170426111412
+1
+执行日期：20170426111412
+insert into up_bzj (time,money,uid) values('1493176452','0.01',281)
+执行日期：20170426111603
+1704261058114734
+执行日期：20170426111603
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(34,5500.00,1493176563,'支付宝购买商品',418)
+执行日期：20170426111603
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426111941
+1704261100417076
+执行日期：20170426111941
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(76,3960.00,1493176781,'支付宝购买商品',421)
+执行日期：20170426111941
+update up_user_goods set stock=stock-99 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426112001
+bzj20170426105538281
+执行日期：20170426112001
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=281
+执行日期：20170426112001
+1
+执行日期：20170426112001
+insert into up_bzj (time,money,uid) values('1493176801','0.01',281)
+执行日期：20170426112008
+1704261101536376
+执行日期：20170426112008
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(76,400.00,1493176808,'支付宝购买商品',422)
+执行日期：20170426112008
+update up_user_goods set stock=stock-10 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426112114
+bzj20170426110337282
+执行日期：20170426112114
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=282
+执行日期：20170426112114
+1
+执行日期：20170426112114
+insert into up_bzj (time,money,uid) values('1493176874','0.01',282)
+执行日期：20170426112120
+1704261056265780
+执行日期：20170426112120
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(80,7500.00,1493176880,'支付宝购买商品',417)
+执行日期：20170426112120
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426112347
+1704261123262327
+执行日期：20170426112347
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(27,3600000.00,1493177027,'支付宝购买商品',431)
+执行日期：20170426112347
+update up_user_goods set stock=stock-90000 where spec_id =129 and uid= and goods_id=51
+执行日期：20170426112459
+1704261100417076
+执行日期：20170426112459
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(76,3960.00,1493177099,'支付宝购买商品',421)
+执行日期：20170426112459
+update up_user_goods set stock=stock-99 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426112613
+1704261058114734
+执行日期：20170426112613
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(34,5500.00,1493177173,'支付宝购买商品',418)
+执行日期：20170426112613
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426112632
+1704261101536376
+执行日期：20170426112632
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(76,400.00,1493177192,'支付宝购买商品',422)
+执行日期：20170426112632
+update up_user_goods set stock=stock-10 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426112704
+bzj20170426110337282
+执行日期：20170426112704
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=282
+执行日期：20170426112704
+1
+执行日期：20170426112704
+insert into up_bzj (time,money,uid) values('1493177224','0.01',282)
+执行日期：20170426113026
+1704261123262327
+执行日期：20170426113026
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(27,3600000.00,1493177426,'支付宝购买商品',431)
+执行日期：20170426113026
+update up_user_goods set stock=stock-90000 where spec_id =129 and uid= and goods_id=51
+执行日期：20170426113655
+1704261123262327
+执行日期：20170426113655
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(27,3600000.00,1493177815,'支付宝购买商品',431)
+执行日期：20170426113655
+update up_user_goods set stock=stock-90000 where spec_id =129 and uid= and goods_id=51
+执行日期：20170426114713
+1704261123262327
+执行日期：20170426114713
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(27,3600000.00,1493178433,'支付宝购买商品',431)
+执行日期：20170426114713
+update up_user_goods set stock=stock-90000 where spec_id =129 and uid= and goods_id=51
+执行日期：20170426122057
+1704261056265780
+执行日期：20170426122057
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(80,7500.00,1493180457,'支付宝购买商品',417)
+执行日期：20170426122057
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426122309
+bzj20170426105538281
+执行日期：20170426122309
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=281
+执行日期：20170426122309
+1
+执行日期：20170426122309
+insert into up_bzj (time,money,uid) values('1493180589','0.01',281)
+执行日期：20170426122332
+bzj20170426085919274
+执行日期：20170426122332
+update up_users set is_lock=2 , pledge_money=pledge_money+0.02 where user_id=274
+执行日期：20170426122332
+1
+执行日期：20170426122332
+insert into up_bzj (time,money,uid) values('1493180612','0.02',274)
+执行日期：20170426122526
+1704261058114734
+执行日期：20170426122526
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(34,5500.00,1493180726,'支付宝购买商品',418)
+执行日期：20170426122526
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426122535
+1704261100417076
+执行日期：20170426122535
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(76,3960.00,1493180735,'支付宝购买商品',421)
+执行日期：20170426122535
+update up_user_goods set stock=stock-99 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426122608
+1704261101536376
+执行日期：20170426122608
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(76,400.00,1493180768,'支付宝购买商品',422)
+执行日期：20170426122608
+update up_user_goods set stock=stock-10 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426122709
+1704260903294205
+执行日期：20170426122709
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(05,600.00,1493180829,'支付宝购买商品',312)
+执行日期：20170426122709
+update up_user_goods set stock=stock-200 where spec_id =130 and uid= and goods_id=58
+执行日期：20170426122716
+bzj20170426110337282
+执行日期：20170426122716
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=282
+执行日期：20170426122716
+1
+执行日期：20170426122716
+insert into up_bzj (time,money,uid) values('1493180836','0.01',282)
+执行日期：20170426124743
+1704260922364729
+执行日期：20170426124743
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(29,600.00,1493182063,'支付宝购买商品',313)
+执行日期：20170426124743
+update up_user_goods set stock=stock-10 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426124816
+1704261123262327
+执行日期：20170426124816
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(27,3600000.00,1493182096,'支付宝购买商品',431)
+执行日期：20170426124816
+update up_user_goods set stock=stock-90000 where spec_id =129 and uid= and goods_id=51
+执行日期：20170426124842
+1704260923553032
+执行日期：20170426124842
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(32,6000.00,1493182122,'支付宝购买商品',314)
+执行日期：20170426124842
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426124912
+1704260925297627
+执行日期：20170426124912
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(27,6000.00,1493182152,'支付宝购买商品',315)
+执行日期：20170426124912
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426125103
+1704260927061604
+执行日期：20170426125103
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(04,60.00,1493182263,'支付宝购买商品',316)
+执行日期：20170426125103
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426125206
+bzj20170426092809275
+执行日期：20170426125206
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=275
+执行日期：20170426125206
+1
+执行日期：20170426125206
+insert into up_bzj (time,money,uid) values('1493182326','0.01',275)
+执行日期：20170426125325
+1704260929177595
+执行日期：20170426125325
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(95,6000.00,1493182405,'支付宝购买商品',318)
+执行日期：20170426125325
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426125607
+1704260927488942
+执行日期：20170426125607
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(42,60.00,1493182567,'支付宝购买商品',317)
+执行日期：20170426125607
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426130425
+bzj20170426093720276
+执行日期：20170426130425
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=276
+执行日期：20170426130425
+1
+执行日期：20170426130425
+insert into up_bzj (time,money,uid) values('1493183065','0.01',276)
+执行日期：20170426130600
+1704260939212153
+执行日期：20170426130600
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(53,4000.00,1493183160,'支付宝购买商品',321)
+执行日期：20170426130600
+update up_user_goods set stock=stock-100 where spec_id =129 and uid= and goods_id=57
+执行日期：20170426130740
+1704260940186075
+执行日期：20170426130740
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(75,750.00,1493183260,'支付宝购买商品',322)
+执行日期：20170426130740
+update up_user_goods set stock=stock-10 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426131004
+1704260943052012
+执行日期：20170426131004
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(12,7500.00,1493183404,'支付宝购买商品',323)
+执行日期：20170426131004
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426131059
+1704260944030893
+执行日期：20170426131059
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(93,400.00,1493183459,'支付宝购买商品',324)
+执行日期：20170426131059
+update up_user_goods set stock=stock-10 where spec_id =129 and uid= and goods_id=51
+执行日期：20170426142137
+bzj20170426105538281
+执行日期：20170426142137
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=281
+执行日期：20170426142137
+1
+执行日期：20170426142137
+insert into up_bzj (time,money,uid) values('1493187697','0.01',281)
+执行日期：20170426142138
+bzj20170425135224260
+执行日期：20170426142138
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=260
+执行日期：20170426142138
+1
+执行日期：20170426142138
+insert into up_bzj (time,money,uid) values('1493187698','0.01',260)
+执行日期：20170426142329
+1704261058114734
+执行日期：20170426142329
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(34,5500.00,1493187809,'支付宝购买商品',418)
+执行日期：20170426142329
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426142359
+1704261056265780
+执行日期：20170426142359
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(80,7500.00,1493187839,'支付宝购买商品',417)
+执行日期：20170426142359
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426142711
+bzj20170426142702283
+执行日期：20170426142711
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=283
+执行日期：20170426142711
+1
+执行日期：20170426142711
+insert into up_bzj (time,money,uid) values('1493188031','0.01',283)
+执行日期：20170426142800
+bzj20170426110337282
+执行日期：20170426142800
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=282
+执行日期：20170426142800
+1
+执行日期：20170426142800
+insert into up_bzj (time,money,uid) values('1493188080','0.01',282)
+执行日期：20170426142907
+1704261100417076
+执行日期：20170426142907
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(76,3960.00,1493188147,'支付宝购买商品',421)
+执行日期：20170426142907
+update up_user_goods set stock=stock-99 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426142913
+1704261428532843
+执行日期：20170426142913
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(43,575.00,1493188153,'支付宝购买商品',447)
+执行日期：20170426142913
+update up_user_goods set stock=stock-5 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426142913
+update up_user_goods set stock=stock-5 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426142958
+1704261101536376
+执行日期：20170426142958
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(76,400.00,1493188198,'支付宝购买商品',422)
+执行日期：20170426142958
+update up_user_goods set stock=stock-10 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426143053
+1704261430297922
+执行日期：20170426143053
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(22,375.00,1493188253,'支付宝购买商品',450)
+执行日期：20170426143053
+update up_user_goods set stock=stock-5 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426143312
+bzj20170426142702283
+执行日期：20170426143312
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=283
+执行日期：20170426143312
+1
+执行日期：20170426143312
+insert into up_bzj (time,money,uid) values('1493188392','0.01',283)
+执行日期：20170426143628
+1704261428532843
+执行日期：20170426143628
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(43,575.00,1493188588,'支付宝购买商品',447)
+执行日期：20170426143628
+update up_user_goods set stock=stock-5 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426143628
+update up_user_goods set stock=stock-5 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426143716
+1704261430297922
+执行日期：20170426143716
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(22,375.00,1493188636,'支付宝购买商品',450)
+执行日期：20170426143716
+update up_user_goods set stock=stock-5 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426144228
+bzj20170426144220285
+执行日期：20170426144228
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=285
+执行日期：20170426144228
+1
+执行日期：20170426144228
+insert into up_bzj (time,money,uid) values('1493188948','0.01',285)
+执行日期：20170426144254
+bzj20170426144246286
+执行日期：20170426144254
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=286
+执行日期：20170426144254
+1
+执行日期：20170426144254
+insert into up_bzj (time,money,uid) values('1493188974','0.01',286)
+执行日期：20170426144502
+bzj20170426142702283
+执行日期：20170426144502
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=283
+执行日期：20170426144502
+1
+执行日期：20170426144502
+insert into up_bzj (time,money,uid) values('1493189102','0.01',283)
+执行日期：20170426144724
+1704261123262327
+执行日期：20170426144724
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(27,3600000.00,1493189244,'支付宝购买商品',431)
+执行日期：20170426144724
+update up_user_goods set stock=stock-90000 where spec_id =129 and uid= and goods_id=51
+执行日期：20170426144741
+1704261428532843
+执行日期：20170426144741
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(43,575.00,1493189261,'支付宝购买商品',447)
+执行日期：20170426144741
+update up_user_goods set stock=stock-5 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426144741
+update up_user_goods set stock=stock-5 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426144811
+1704261430297922
+执行日期：20170426144811
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(22,375.00,1493189291,'支付宝购买商品',450)
+执行日期：20170426144811
+update up_user_goods set stock=stock-5 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426144931
+bzj20170426144220285
+执行日期：20170426144931
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=285
+执行日期：20170426144931
+1
+执行日期：20170426144931
+insert into up_bzj (time,money,uid) values('1493189371','0.01',285)
+执行日期：20170426144940
+bzj20170426144246286
+执行日期：20170426144940
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=286
+执行日期：20170426144940
+1
+执行日期：20170426144940
+insert into up_bzj (time,money,uid) values('1493189380','0.01',286)
+执行日期：20170426145309
+bzj20170425142746264
+执行日期：20170426145309
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=264
+执行日期：20170426145309
+1
+执行日期：20170426145309
+insert into up_bzj (time,money,uid) values('1493189589','0.01',264)
+执行日期：20170426145323
+1704261428532843
+执行日期：20170426145323
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(43,575.00,1493189603,'支付宝购买商品',447)
+执行日期：20170426145323
+update up_user_goods set stock=stock-5 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426145323
+update up_user_goods set stock=stock-5 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426145500
+bzj20170426145449288
+执行日期：20170426145500
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=288
+执行日期：20170426145500
+1
+执行日期：20170426145500
+insert into up_bzj (time,money,uid) values('1493189700','0.01',288)
+执行日期：20170426145515
+1704261430297922
+执行日期：20170426145515
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(22,375.00,1493189715,'支付宝购买商品',450)
+执行日期：20170426145515
+update up_user_goods set stock=stock-5 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426145626
+bzj20170426142702283
+执行日期：20170426145626
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=283
+执行日期：20170426145626
+1
+执行日期：20170426145626
+insert into up_bzj (time,money,uid) values('1493189786','0.01',283)
+执行日期：20170426145630
+bzj20170426144220285
+执行日期：20170426145630
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=285
+执行日期：20170426145630
+1
+执行日期：20170426145630
+insert into up_bzj (time,money,uid) values('1493189790','0.01',285)
+执行日期：20170426150045
+bzj20170426144246286
+执行日期：20170426150045
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=286
+执行日期：20170426150045
+1
+执行日期：20170426150045
+insert into up_bzj (time,money,uid) values('1493190045','0.01',286)
+执行日期：20170426150125
+bzj20170426145449288
+执行日期：20170426150125
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=288
+执行日期：20170426150125
+1
+执行日期：20170426150125
+insert into up_bzj (time,money,uid) values('1493190085','0.01',288)
+执行日期：20170426150630
+bzj20170426144220285
+执行日期：20170426150630
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=285
+执行日期：20170426150630
+1
+执行日期：20170426150630
+insert into up_bzj (time,money,uid) values('1493190390','0.01',285)
+执行日期：20170426151007
+bzj20170426144246286
+执行日期：20170426151007
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=286
+执行日期：20170426151007
+1
+执行日期：20170426151007
+insert into up_bzj (time,money,uid) values('1493190607','0.01',286)
+执行日期：20170426151234
+bzj20170426145449288
+执行日期：20170426151234
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=288
+执行日期：20170426151234
+1
+执行日期：20170426151234
+insert into up_bzj (time,money,uid) values('1493190754','0.01',288)
+执行日期：20170426151928
+bzj20170426145449288
+执行日期：20170426151928
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=288
+执行日期：20170426151928
+1
+执行日期：20170426151928
+insert into up_bzj (time,money,uid) values('1493191168','0.01',288)
+执行日期：20170426155143
+bzj20170426155135290
+执行日期：20170426155144
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=290
+执行日期：20170426155144
+1
+执行日期：20170426155144
+insert into up_bzj (time,money,uid) values('1493193104','0.01',290)
+执行日期：20170426155145
+bzj20170426142702283
+执行日期：20170426155145
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=283
+执行日期：20170426155145
+1
+执行日期：20170426155145
+insert into up_bzj (time,money,uid) values('1493193105','0.01',283)
+执行日期：20170426155313
+bzj20170426155303291
+执行日期：20170426155313
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=291
+执行日期：20170426155313
+1
+执行日期：20170426155313
+insert into up_bzj (time,money,uid) values('1493193193','0.01',291)
+执行日期：20170426155341
+1704261428532843
+执行日期：20170426155341
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(43,575.00,1493193221,'支付宝购买商品',447)
+执行日期：20170426155341
+update up_user_goods set stock=stock-5 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426155341
+update up_user_goods set stock=stock-5 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426155521
+1704261430297922
+执行日期：20170426155521
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(22,375.00,1493193321,'支付宝购买商品',450)
+执行日期：20170426155521
+update up_user_goods set stock=stock-5 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426155837
+bzj20170426155135290
+执行日期：20170426155837
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=290
+执行日期：20170426155837
+1
+执行日期：20170426155837
+insert into up_bzj (time,money,uid) values('1493193517','0.01',290)
+执行日期：20170426160029
+bzj20170426155303291
+执行日期：20170426160029
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=291
+执行日期：20170426160029
+1
+执行日期：20170426160029
+insert into up_bzj (time,money,uid) values('1493193629','0.01',291)
+执行日期：20170426160743
+bzj20170426144220285
+执行日期：20170426160743
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=285
+执行日期：20170426160743
+1
+执行日期：20170426160743
+insert into up_bzj (time,money,uid) values('1493194063','0.01',285)
+执行日期：20170426160859
+bzj20170426155135290
+执行日期：20170426160859
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=290
+执行日期：20170426160859
+1
+执行日期：20170426160859
+insert into up_bzj (time,money,uid) values('1493194139','0.01',290)
+执行日期：20170426161003
+bzj20170426144246286
+执行日期：20170426161003
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=286
+执行日期：20170426161003
+1
+执行日期：20170426161003
+insert into up_bzj (time,money,uid) values('1493194203','0.01',286)
+执行日期：20170426161107
+bzj20170426155303291
+执行日期：20170426161107
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=291
+执行日期：20170426161107
+1
+执行日期：20170426161107
+insert into up_bzj (time,money,uid) values('1493194267','0.01',291)
+执行日期：20170426161530
+bzj20170426155135290
+执行日期：20170426161530
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=290
+执行日期：20170426161530
+1
+执行日期：20170426161530
+insert into up_bzj (time,money,uid) values('1493194530','0.01',290)
+执行日期：20170426161704
+bzj20170426155303291
+执行日期：20170426161704
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=291
+执行日期：20170426161704
+1
+执行日期：20170426161704
+insert into up_bzj (time,money,uid) values('1493194624','0.01',291)
+执行日期：20170426161922
+bzj20170426145449288
+执行日期：20170426161922
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=288
+执行日期：20170426161922
+1
+执行日期：20170426161922
+insert into up_bzj (time,money,uid) values('1493194762','0.01',288)
+执行日期：20170426171512
+bzj20170426155135290
+执行日期：20170426171512
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=290
+执行日期：20170426171512
+1
+执行日期：20170426171512
+insert into up_bzj (time,money,uid) values('1493198112','0.01',290)
+执行日期：20170426171813
+bzj20170426155303291
+执行日期：20170426171813
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=291
+执行日期：20170426171813
+1
+执行日期：20170426171813
+insert into up_bzj (time,money,uid) values('1493198293','0.01',291)
+执行日期：20170426175402
+bzj20170426142702283
+执行日期：20170426175402
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=283
+执行日期：20170426175402
+1
+执行日期：20170426175402
+insert into up_bzj (time,money,uid) values('1493200442','0.01',283)
+执行日期：20170426175634
+1704261428532843
+执行日期：20170426175634
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(43,575.00,1493200594,'支付宝购买商品',447)
+执行日期：20170426175634
+update up_user_goods set stock=stock-5 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426175634
+update up_user_goods set stock=stock-5 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426175825
+1704261430297922
+执行日期：20170426175825
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(22,375.00,1493200705,'支付宝购买商品',450)
+执行日期：20170426175825
+update up_user_goods set stock=stock-5 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426180956
+bzj20170426144220285
+执行日期：20170426180956
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=285
+执行日期：20170426180956
+1
+执行日期：20170426180956
+insert into up_bzj (time,money,uid) values('1493201396','0.01',285)
+执行日期：20170426181031
+bzj20170426144246286
+执行日期：20170426181031
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=286
+执行日期：20170426181031
+1
+执行日期：20170426181031
+insert into up_bzj (time,money,uid) values('1493201431','0.01',286)
+执行日期：20170426182208
+bzj20170426145449288
+执行日期：20170426182208
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=288
+执行日期：20170426182208
+1
+执行日期：20170426182208
+insert into up_bzj (time,money,uid) values('1493202128','0.01',288)
+执行日期：20170426182644
+bzj20170426085919274
+执行日期：20170426182644
+update up_users set is_lock=2 , pledge_money=pledge_money+0.02 where user_id=274
+执行日期：20170426182644
+1
+执行日期：20170426182644
+insert into up_bzj (time,money,uid) values('1493202404','0.02',274)
+执行日期：20170426183011
+1704260903294205
+执行日期：20170426183011
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(05,600.00,1493202611,'支付宝购买商品',312)
+执行日期：20170426183011
+update up_user_goods set stock=stock-200 where spec_id =130 and uid= and goods_id=58
+执行日期：20170426184910
+1704260922364729
+执行日期：20170426184910
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(29,600.00,1493203750,'支付宝购买商品',313)
+执行日期：20170426184910
+update up_user_goods set stock=stock-10 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426185114
+1704260923553032
+执行日期：20170426185114
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(32,6000.00,1493203874,'支付宝购买商品',314)
+执行日期：20170426185114
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426185154
+1704260927061604
+执行日期：20170426185154
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(04,60.00,1493203914,'支付宝购买商品',316)
+执行日期：20170426185154
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426185213
+1704260927488942
+执行日期：20170426185213
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(42,60.00,1493203933,'支付宝购买商品',317)
+执行日期：20170426185213
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426185317
+1704260925297627
+执行日期：20170426185317
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(27,6000.00,1493203997,'支付宝购买商品',315)
+执行日期：20170426185317
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426185605
+bzj20170426092809275
+执行日期：20170426185605
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=275
+执行日期：20170426185605
+1
+执行日期：20170426185605
+insert into up_bzj (time,money,uid) values('1493204165','0.01',275)
+执行日期：20170426185741
+1704260929177595
+执行日期：20170426185741
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(95,6000.00,1493204261,'支付宝购买商品',318)
+执行日期：20170426185741
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426190400
+bzj20170426093720276
+执行日期：20170426190400
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=276
+执行日期：20170426190400
+1
+执行日期：20170426190400
+insert into up_bzj (time,money,uid) values('1493204640','0.01',276)
+执行日期：20170426190541
+1704260939212153
+执行日期：20170426190541
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(53,4000.00,1493204741,'支付宝购买商品',321)
+执行日期：20170426190541
+update up_user_goods set stock=stock-100 where spec_id =129 and uid= and goods_id=57
+执行日期：20170426190741
+1704260940186075
+执行日期：20170426190741
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(75,750.00,1493204861,'支付宝购买商品',322)
+执行日期：20170426190741
+update up_user_goods set stock=stock-10 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426191103
+1704260944030893
+执行日期：20170426191103
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(93,400.00,1493205063,'支付宝购买商品',324)
+执行日期：20170426191103
+update up_user_goods set stock=stock-10 where spec_id =129 and uid= and goods_id=51
+执行日期：20170426191106
+1704260943052012
+执行日期：20170426191106
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(12,7500.00,1493205066,'支付宝购买商品',323)
+执行日期：20170426191106
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426191537
+bzj20170426155135290
+执行日期：20170426191537
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=290
+执行日期：20170426191537
+1
+执行日期：20170426191537
+insert into up_bzj (time,money,uid) values('1493205337','0.01',290)
+执行日期：20170426191721
+bzj20170426155303291
+执行日期：20170426191721
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=291
+执行日期：20170426191721
+1
+执行日期：20170426191721
+insert into up_bzj (time,money,uid) values('1493205441','0.01',291)
+执行日期：20170426202107
+1704261056265780
+执行日期：20170426202107
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(80,7500.00,1493209267,'支付宝购买商品',417)
+执行日期：20170426202107
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426202142
+bzj20170426105538281
+执行日期：20170426202142
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=281
+执行日期：20170426202142
+1
+执行日期：20170426202142
+insert into up_bzj (time,money,uid) values('1493209302','0.01',281)
+执行日期：20170426202305
+1704261058114734
+执行日期：20170426202305
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(34,5500.00,1493209385,'支付宝购买商品',418)
+执行日期：20170426202305
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426202642
+1704261100417076
+执行日期：20170426202642
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(76,3960.00,1493209602,'支付宝购买商品',421)
+执行日期：20170426202642
+update up_user_goods set stock=stock-99 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426202710
+bzj20170426110337282
+执行日期：20170426202710
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=282
+执行日期：20170426202710
+1
+执行日期：20170426202710
+insert into up_bzj (time,money,uid) values('1493209630','0.01',282)
+执行日期：20170426202711
+1704261101536376
+执行日期：20170426202711
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(76,400.00,1493209631,'支付宝购买商品',422)
+执行日期：20170426202711
+update up_user_goods set stock=stock-10 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426204941
+1704261123262327
+执行日期：20170426204941
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(27,3600000.00,1493210981,'支付宝购买商品',431)
+执行日期：20170426204941
+update up_user_goods set stock=stock-90000 where spec_id =129 and uid= and goods_id=51
+执行日期：20170426235217
+bzj20170426142702283
+执行日期：20170426235217
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=283
+执行日期：20170426235217
+1
+执行日期：20170426235217
+insert into up_bzj (time,money,uid) values('1493221937','0.01',283)
+执行日期：20170426235529
+1704261428532843
+执行日期：20170426235529
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(43,575.00,1493222129,'支付宝购买商品',447)
+执行日期：20170426235529
+update up_user_goods set stock=stock-5 where spec_id =132 and uid= and goods_id=54
+执行日期：20170426235529
+update up_user_goods set stock=stock-5 where spec_id =129 and uid= and goods_id=52
+执行日期：20170426235605
+1704261430297922
+执行日期：20170426235605
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(22,375.00,1493222165,'支付宝购买商品',450)
+执行日期：20170426235605
+update up_user_goods set stock=stock-5 where spec_id =132 and uid= and goods_id=54
+执行日期：20170427000808
+bzj20170426144220285
+执行日期：20170427000808
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=285
+执行日期：20170427000808
+1
+执行日期：20170427000808
+insert into up_bzj (time,money,uid) values('1493222888','0.01',285)
+执行日期：20170427001041
+bzj20170426144246286
+执行日期：20170427001041
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=286
+执行日期：20170427001041
+1
+执行日期：20170427001041
+insert into up_bzj (time,money,uid) values('1493223041','0.01',286)
+执行日期：20170427002128
+bzj20170426145449288
+执行日期：20170427002128
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=288
+执行日期：20170427002128
+1
+执行日期：20170427002128
+insert into up_bzj (time,money,uid) values('1493223688','0.01',288)
+执行日期：20170427011517
+bzj20170426155135290
+执行日期：20170427011517
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=290
+执行日期：20170427011517
+1
+执行日期：20170427011517
+insert into up_bzj (time,money,uid) values('1493226917','0.01',290)
+执行日期：20170427012026
+bzj20170426155303291
+执行日期：20170427012026
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=291
+执行日期：20170427012026
+1
+执行日期：20170427012026
+insert into up_bzj (time,money,uid) values('1493227226','0.01',291)
+执行日期：20170427092618
+bzj20170426085919274
+执行日期：20170427092618
+update up_users set is_lock=2 , pledge_money=pledge_money+0.02 where user_id=274
+执行日期：20170427092618
+1
+执行日期：20170427092618
+insert into up_bzj (time,money,uid) values('1493256378','0.02',274)
+执行日期：20170427093027
+1704260903294205
+执行日期：20170427093027
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(05,600.00,1493256627,'支付宝购买商品',312)
+执行日期：20170427093027
+update up_user_goods set stock=stock-200 where spec_id =130 and uid= and goods_id=58
+执行日期：20170427095029
+1704260922364729
+执行日期：20170427095029
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(29,600.00,1493257829,'支付宝购买商品',313)
+执行日期：20170427095029
+update up_user_goods set stock=stock-10 where spec_id =132 and uid= and goods_id=54
+执行日期：20170427095119
+1704260923553032
+执行日期：20170427095119
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(32,6000.00,1493257879,'支付宝购买商品',314)
+执行日期：20170427095119
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170427095228
+bzj20170426092809275
+执行日期：20170427095228
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=275
+执行日期：20170427095228
+1
+执行日期：20170427095228
+insert into up_bzj (time,money,uid) values('1493257948','0.01',275)
+执行日期：20170427095312
+1704260925297627
+执行日期：20170427095312
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(27,6000.00,1493257992,'支付宝购买商品',315)
+执行日期：20170427095312
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170427095319
+1704260927488942
+执行日期：20170427095319
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(42,60.00,1493257999,'支付宝购买商品',317)
+执行日期：20170427095319
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170427095328
+1704260929177595
+执行日期：20170427095328
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(95,6000.00,1493258008,'支付宝购买商品',318)
+执行日期：20170427095328
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170427095359
+1704260927061604
+执行日期：20170427095359
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(04,60.00,1493258039,'支付宝购买商品',316)
+执行日期：20170427095359
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170427100238
+bzj20170426093720276
+执行日期：20170427100238
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=276
+执行日期：20170427100238
+1
+执行日期：20170427100238
+insert into up_bzj (time,money,uid) values('1493258558','0.01',276)
+执行日期：20170427100334
+1704260939212153
+执行日期：20170427100334
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(53,4000.00,1493258614,'支付宝购买商品',321)
+执行日期：20170427100334
+update up_user_goods set stock=stock-100 where spec_id =129 and uid= and goods_id=57
+执行日期：20170427100531
+1704260940186075
+执行日期：20170427100531
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(75,750.00,1493258731,'支付宝购买商品',322)
+执行日期：20170427100531
+update up_user_goods set stock=stock-10 where spec_id =132 and uid= and goods_id=54
+执行日期：20170427100803
+1704260943052012
+执行日期：20170427100803
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(12,7500.00,1493258883,'支付宝购买商品',323)
+执行日期：20170427100803
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170427100824
+1704260944030893
+执行日期：20170427100824
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(93,400.00,1493258904,'支付宝购买商品',324)
+执行日期：20170427100824
+update up_user_goods set stock=stock-10 where spec_id =129 and uid= and goods_id=51
+执行日期：20170427112232
+1704261056265780
+执行日期：20170427112232
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(80,7500.00,1493263352,'支付宝购买商品',417)
+执行日期：20170427112232
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170427112322
+bzj20170426105538281
+执行日期：20170427112322
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=281
+执行日期：20170427112322
+1
+执行日期：20170427112322
+insert into up_bzj (time,money,uid) values('1493263402','0.01',281)
+执行日期：20170427112606
+1704261058114734
+执行日期：20170427112606
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(34,5500.00,1493263566,'支付宝购买商品',418)
+执行日期：20170427112606
+update up_user_goods set stock=stock-100 where spec_id =132 and uid= and goods_id=54
+执行日期：20170427112739
+1704261100417076
+执行日期：20170427112739
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(76,3960.00,1493263659,'支付宝购买商品',421)
+执行日期：20170427112739
+update up_user_goods set stock=stock-99 where spec_id =129 and uid= and goods_id=52
+执行日期：20170427112822
+bzj20170426110337282
+执行日期：20170427112822
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=282
+执行日期：20170427112822
+1
+执行日期：20170427112822
+insert into up_bzj (time,money,uid) values('1493263702','0.01',282)
+执行日期：20170427112930
+1704261101536376
+执行日期：20170427112930
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(76,400.00,1493263770,'支付宝购买商品',422)
+执行日期：20170427112930
+update up_user_goods set stock=stock-10 where spec_id =129 and uid= and goods_id=52
+执行日期：20170427115127
+1704261123262327
+执行日期：20170427115127
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(27,3600000.00,1493265087,'支付宝购买商品',431)
+执行日期：20170427115127
+update up_user_goods set stock=stock-90000 where spec_id =129 and uid= and goods_id=51
+执行日期：20170427145352
+bzj20170426142702283
+执行日期：20170427145352
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=283
+执行日期：20170427145352
+1
+执行日期：20170427145352
+insert into up_bzj (time,money,uid) values('1493276032','0.01',283)
+执行日期：20170427145732
+1704261428532843
+执行日期：20170427145732
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(43,575.00,1493276252,'支付宝购买商品',447)
+执行日期：20170427145732
+update up_user_goods set stock=stock-5 where spec_id =132 and uid= and goods_id=54
+执行日期：20170427145732
+update up_user_goods set stock=stock-5 where spec_id =129 and uid= and goods_id=52
+执行日期：20170427145834
+1704261430297922
+执行日期：20170427145834
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(22,375.00,1493276314,'支付宝购买商品',450)
+执行日期：20170427145834
+update up_user_goods set stock=stock-5 where spec_id =132 and uid= and goods_id=54
+执行日期：20170427150553
+bzj20170426144220285
+执行日期：20170427150553
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=285
+执行日期：20170427150553
+1
+执行日期：20170427150553
+insert into up_bzj (time,money,uid) values('1493276753','0.01',285)
+执行日期：20170427151031
+bzj20170426144246286
+执行日期：20170427151031
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=286
+执行日期：20170427151031
+1
+执行日期：20170427151031
+insert into up_bzj (time,money,uid) values('1493277031','0.01',286)
+执行日期：20170427152303
+bzj20170426145449288
+执行日期：20170427152303
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=288
+执行日期：20170427152303
+1
+执行日期：20170427152303
+insert into up_bzj (time,money,uid) values('1493277783','0.01',288)
+执行日期：20170427161554
+bzj20170426155135290
+执行日期：20170427161554
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=290
+执行日期：20170427161554
+1
+执行日期：20170427161554
+insert into up_bzj (time,money,uid) values('1493280954','0.01',290)
+执行日期：20170427161658
+bzj20170426155303291
+执行日期：20170427161658
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=291
+执行日期：20170427161658
+1
+执行日期：20170427161658
+insert into up_bzj (time,money,uid) values('1493281018','0.01',291)
+执行日期：20170427211652
+bzj20170427211623306
+执行日期：20170427211652
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=306
+执行日期：20170427211652
+1
+执行日期：20170427211652
+insert into up_bzj (time,money,uid) values('1493299012','0.01',306)
+执行日期：20170427211701
+bzj20170427211649307
+执行日期：20170427211701
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=307
+执行日期：20170427211701
+1
+执行日期：20170427211701
+insert into up_bzj (time,money,uid) values('1493299021','0.01',307)
+执行日期：20170427212325
+bzj20170427211623306
+执行日期：20170427212325
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=306
+执行日期：20170427212325
+1
+执行日期：20170427212325
+insert into up_bzj (time,money,uid) values('1493299405','0.01',306)
+执行日期：20170427212401
+bzj20170427211649307
+执行日期：20170427212402
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=307
+执行日期：20170427212402
+1
+执行日期：20170427212402
+insert into up_bzj (time,money,uid) values('1493299442','0.01',307)
+执行日期：20170427213418
+bzj20170427211623306
+执行日期：20170427213418
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=306
+执行日期：20170427213418
+1
+执行日期：20170427213418
+insert into up_bzj (time,money,uid) values('1493300058','0.01',306)
+执行日期：20170427213535
+bzj20170427211649307
+执行日期：20170427213535
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=307
+执行日期：20170427213535
+1
+执行日期：20170427213535
+insert into up_bzj (time,money,uid) values('1493300135','0.01',307)
+执行日期：20170427214050
+1704272140303020
+执行日期：20170427214050
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(20,690000.00,1493300450,'支付宝购买商品',630)
+执行日期：20170427214050
+update up_user_goods set stock=stock-3000 where spec_id =131 and uid= and goods_id=55
+执行日期：20170427214050
+update up_user_goods set stock=stock-30000 where spec_id =131 and uid= and goods_id=56
+执行日期：20170427214103
+bzj20170427211649307
+执行日期：20170427214103
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=307
+执行日期：20170427214103
+1
+执行日期：20170427214103
+insert into up_bzj (time,money,uid) values('1493300463','0.01',307)
+执行日期：20170427214129
+bzj20170427211623306
+执行日期：20170427214129
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=306
+执行日期：20170427214129
+1
+执行日期：20170427214129
+insert into up_bzj (time,money,uid) values('1493300489','0.01',306)
+执行日期：20170427214711
+1704272140303020
+执行日期：20170427214711
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(20,690000.00,1493300831,'支付宝购买商品',630)
+执行日期：20170427214711
+update up_user_goods set stock=stock-3000 where spec_id =131 and uid= and goods_id=55
+执行日期：20170427214711
+update up_user_goods set stock=stock-30000 where spec_id =131 and uid= and goods_id=56
+执行日期：20170427214933
+1704272149202044
+执行日期：20170427214933
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(44,2.00,1493300973,'支付宝购买商品',636)
+执行日期：20170427214933
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170427215614
+1704272149202044
+执行日期：20170427215614
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(44,2.00,1493301374,'支付宝购买商品',636)
+执行日期：20170427215614
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170427215832
+1704272140303020
+执行日期：20170427215832
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(20,690000.00,1493301512,'支付宝购买商品',630)
+执行日期：20170427215832
+update up_user_goods set stock=stock-3000 where spec_id =131 and uid= and goods_id=55
+执行日期：20170427215832
+update up_user_goods set stock=stock-30000 where spec_id =131 and uid= and goods_id=56
+执行日期：20170427220258
+1704272149202044
+执行日期：20170427220258
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(44,2.00,1493301778,'支付宝购买商品',636)
+执行日期：20170427220258
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170427220454
+1704272140303020
+执行日期：20170427220454
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(20,690000.00,1493301894,'支付宝购买商品',630)
+执行日期：20170427220454
+update up_user_goods set stock=stock-3000 where spec_id =131 and uid= and goods_id=55
+执行日期：20170427220454
+update up_user_goods set stock=stock-30000 where spec_id =131 and uid= and goods_id=56
+执行日期：20170427220600
+bzj20170427220551309
+执行日期：20170427220600
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=309
+执行日期：20170427220600
+1
+执行日期：20170427220600
+insert into up_bzj (time,money,uid) values('1493301960','0.01',309)
+执行日期：20170427220900
+1704272208486001
+执行日期：20170427220900
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(01,3000.00,1493302140,'支付宝购买商品',642)
+执行日期：20170427220900
+update up_user_goods set stock=stock-100 where spec_id =131 and uid=0 and goods_id=56
+执行日期：20170427220900
+1704272208486001
+执行日期：20170427221226
+bzj20170427220551309
+执行日期：20170427221226
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=309
+执行日期：20170427221226
+1
+执行日期：20170427221226
+insert into up_bzj (time,money,uid) values('1493302346','0.01',309)
+执行日期：20170427221359
+1704272149202044
+执行日期：20170427221359
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(44,2.00,1493302439,'支付宝购买商品',636)
+执行日期：20170427221400
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170427221618
+1704272216035035
+执行日期：20170427221618
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(35,5500.00,1493302578,'支付宝购买商品',643)
+执行日期：20170427221618
+update up_user_goods set stock=stock-100 where spec_id =131 and uid= and goods_id=55
+执行日期：20170427222157
+bzj20170427222141310
+执行日期：20170427222157
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=310
+执行日期：20170427222157
+1
+执行日期：20170427222157
+insert into up_bzj (time,money,uid) values('1493302917','0.01',310)
+执行日期：20170427222256
+1704272216035035
+执行日期：20170427222256
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(35,5500.00,1493302976,'支付宝购买商品',643)
+执行日期：20170427222256
+update up_user_goods set stock=stock-100 where spec_id =131 and uid= and goods_id=55
+执行日期：20170427222358
+bzj20170427220551309
+执行日期：20170427222358
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=309
+执行日期：20170427222358
+1
+执行日期：20170427222358
+insert into up_bzj (time,money,uid) values('1493303038','0.01',309)
+执行日期：20170427222409
+1704272223504458
+执行日期：20170427222409
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(58,2500.00,1493303049,'支付宝购买商品',644)
+执行日期：20170427222409
+update up_user_goods set stock=stock-100 where spec_id =131 and uid= and goods_id=55
+执行日期：20170427222754
+bzj20170427222141310
+执行日期：20170427222754
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=310
+执行日期：20170427222754
+1
+执行日期：20170427222754
+insert into up_bzj (time,money,uid) values('1493303274','0.01',310)
+执行日期：20170427222812
+wcz20170427222802310
+执行日期：20170427222812
+update up_users set user_money = user_money+0.01 where user_id=310
+执行日期：20170427222812
+insert into up_user_rechage (user_id,money,time) values(310,'0.01','1493303292')
+执行日期：20170427222812
+wcz20170427222802310
+执行日期：20170427222943
+wcz20170427222934310
+执行日期：20170427222943
+update up_users set user_money = user_money+0.01 where user_id=310
+执行日期：20170427222943
+insert into up_user_rechage (user_id,money,time) values(310,'0.01','1493303383')
+执行日期：20170427222943
+wcz20170427222934310
+执行日期：20170427223014
+1704272216035035
+执行日期：20170427223014
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(35,5500.00,1493303414,'支付宝购买商品',643)
+执行日期：20170427223014
+update up_user_goods set stock=stock-100 where spec_id =131 and uid= and goods_id=55
+执行日期：20170427223026
+bzj20170427220551309
+执行日期：20170427223026
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=309
+执行日期：20170427223026
+1
+执行日期：20170427223026
+insert into up_bzj (time,money,uid) values('1493303426','0.01',309)
+执行日期：20170427223123
+1704272223504458
+执行日期：20170427223123
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(58,2500.00,1493303483,'支付宝购买商品',644)
+执行日期：20170427223123
+update up_user_goods set stock=stock-100 where spec_id =131 and uid= and goods_id=55
+执行日期：20170427223517
+bzj20170427223507308
+执行日期：20170427223517
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=308
+执行日期：20170427223517
+1
+执行日期：20170427223517
+insert into up_bzj (time,money,uid) values('1493303717','0.01',308)
+执行日期：20170427223613
+wcz20170427223602308
+执行日期：20170427223613
+update up_users set user_money = user_money+0.01 where user_id=308
+执行日期：20170427223613
+insert into up_user_rechage (user_id,money,time) values(308,'0.01','1493303773')
+执行日期：20170427223613
+wcz20170427223602308
+执行日期：20170427223955
+1704272216035035
+执行日期：20170427223956
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(35,5500.00,1493303996,'支付宝购买商品',643)
+执行日期：20170427223956
+update up_user_goods set stock=stock-100 where spec_id =131 and uid= and goods_id=55
+执行日期：20170427224015
+bzj20170427222141310
+执行日期：20170427224015
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=310
+执行日期：20170427224015
+1
+执行日期：20170427224015
+insert into up_bzj (time,money,uid) values('1493304015','0.01',310)
+执行日期：20170427224129
+bzj20170427211649307
+执行日期：20170427224129
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=307
+执行日期：20170427224129
+1
+执行日期：20170427224129
+insert into up_bzj (time,money,uid) values('1493304089','0.01',307)
+执行日期：20170427224201
+bzj20170427223507308
+执行日期：20170427224201
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=308
+执行日期：20170427224201
+1
+执行日期：20170427224201
+insert into up_bzj (time,money,uid) values('1493304121','0.01',308)
+执行日期：20170427224212
+1704272223504458
+执行日期：20170427224212
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(58,2500.00,1493304132,'支付宝购买商品',644)
+执行日期：20170427224212
+update up_user_goods set stock=stock-100 where spec_id =131 and uid= and goods_id=55
+执行日期：20170427224233
+bzj20170427211623306
+执行日期：20170427224233
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=306
+执行日期：20170427224233
+1
+执行日期：20170427224233
+insert into up_bzj (time,money,uid) values('1493304153','0.01',306)
+执行日期：20170427224621
+bzj20170427222141310
+执行日期：20170427224621
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=310
+执行日期：20170427224621
+1
+执行日期：20170427224621
+insert into up_bzj (time,money,uid) values('1493304381','0.01',310)
+执行日期：20170427224815
+1704272223504458
+执行日期：20170427224815
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(58,2500.00,1493304495,'支付宝购买商品',644)
+执行日期：20170427224815
+update up_user_goods set stock=stock-100 where spec_id =131 and uid= and goods_id=55
+执行日期：20170427225252
+bzj20170427223507308
+执行日期：20170427225406
+wcz20170427225355308
+执行日期：20170427225406
+update up_users set user_money = user_money+0.01 where user_id=308
+执行日期：20170427225406
+insert into up_user_rechage (user_id,money,time) values(308,'0.01','1493304846')
+执行日期：20170427225406
+wcz20170427225355308
+执行日期：20170427225906
+bzj20170427223507308
+执行日期：20170427230554
+1704272140303020
+执行日期：20170427230554
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(20,690000.00,1493305554,'支付宝购买商品',630)
+执行日期：20170427230554
+update up_user_goods set stock=stock-3000 where spec_id =131 and uid= and goods_id=55
+执行日期：20170427230554
+update up_user_goods set stock=stock-30000 where spec_id =131 and uid= and goods_id=56
+执行日期：20170427231303
+1704272149202044
+执行日期：20170427231304
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(44,2.00,1493305984,'支付宝购买商品',636)
+执行日期：20170427231304
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170427231440
+bzj20170427231432312
+执行日期：20170427231519
+bzj20170427231504312
+执行日期：20170427231647
+bzj20170427231639312
+执行日期：20170427231647
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=312
+执行日期：20170427231647
+1
+执行日期：20170427231647
+insert into up_bzj (time,money,uid) values('1493306207','0.01',312)
+执行日期：20170427231915
+wcz20170427231906312
+执行日期：20170427231915
+update up_users set user_money = user_money+0.01 where user_id=312
+执行日期：20170427231915
+insert into up_user_rechage (user_id,money,time) values(312,'0.01','1493306355')
+执行日期：20170427231915
+wcz20170427231906312
+执行日期：20170427232059
+bzj20170427231432312
+执行日期：20170427232059
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=312
+执行日期：20170427232059
+1
+执行日期：20170427232059
+insert into up_bzj (time,money,uid) values('1493306459','0.01',312)
+执行日期：20170427232155
+bzj20170427231504312
+执行日期：20170427232155
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=312
+执行日期：20170427232155
+1
+执行日期：20170427232155
+insert into up_bzj (time,money,uid) values('1493306515','0.01',312)
+执行日期：20170427232327
+bzj20170427231639312
+执行日期：20170427232442
+bzj20170427232433312
+执行日期：20170427232553
+bzj20170427232544312
+执行日期：20170427232758
+bzj20170427231432312
+执行日期：20170427232901
+bzj20170427231504312
+执行日期：20170427233055
+bzj20170427232433312
+执行日期：20170427233125
+bzj20170427220551309
+执行日期：20170427233203
+bzj20170427232544312
+执行日期：20170427233409
+bzj20170427231639312
+执行日期：20170427233507
+bzj20170427233458313
+执行日期：20170427233719
+bzj20170427233710313
+执行日期：20170427233719
+Array
+执行日期：20170427233719
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=313
+执行日期：20170427233719
+1
+执行日期：20170427233719
+insert into up_bzj (time,money,uid) values('1493307439','0.01',313)
+执行日期：20170427233801
+bzj20170427231432312
+执行日期：20170427233801
+
+执行日期：20170427233801
+bzj20170427231432312
+执行日期：20170427233805
+bzj20170427232433312
+执行日期：20170427233805
+
+执行日期：20170427233805
+bzj20170427232433312
+执行日期：20170427233901
+bzj20170427231504312
+执行日期：20170427233901
+
+执行日期：20170427233901
+bzj20170427231504312
+执行日期：20170427234138
+bzj20170427231639312
+执行日期：20170427234138
+
+执行日期：20170427234138
+bzj20170427231639312
+执行日期：20170427234212
+1704272216035035
+执行日期：20170427234212
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(35,5500.00,1493307732,'支付宝购买商品',643)
+执行日期：20170427234212
+update up_user_goods set stock=stock-100 where spec_id =131 and uid= and goods_id=55
+执行日期：20170427234237
+bzj20170427233458313
+执行日期：20170427234237
+Array
+执行日期：20170427234237
+bzj20170427233458313
+执行日期：20170427234327
+bzj20170427232544312
+执行日期：20170427234327
+
+执行日期：20170427234327
+bzj20170427232544312
+执行日期：20170427234406
+bzj20170427233710313
+执行日期：20170427234406
+Array
+执行日期：20170427234406
+bzj20170427233710313
+执行日期：20170427234705
+bzj20170427222141310
+执行日期：20170427234705
+
+执行日期：20170427234705
+bzj20170427222141310
+执行日期：20170427234932
+1704272223504458
+执行日期：20170427234932
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(58,2500.00,1493308172,'支付宝购买商品',644)
+执行日期：20170427234932
+update up_user_goods set stock=stock-100 where spec_id =131 and uid= and goods_id=55
+执行日期：20170427235109
+bzj20170427233710313
+执行日期：20170427235109
+Array
+执行日期：20170427235109
+bzj20170427233710313
+执行日期：20170427235258
+bzj20170427233458313
+执行日期：20170427235258
+Array
+执行日期：20170427235258
+bzj20170427233458313
+执行日期：20170427235531
+bzj20170427235521314
+执行日期：20170427235531
+Array
+执行日期：20170427235531
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=314
+执行日期：20170427235531
+1
+执行日期：20170427235531
+insert into up_bzj (time,money,uid) values('1493308531','0.01',314)
+执行日期：20170427235554
+bzj20170427235546315
+执行日期：20170427235555
+Array
+执行日期：20170427235555
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=315
+执行日期：20170427235555
+1
+执行日期：20170427235555
+insert into up_bzj (time,money,uid) values('1493308555','0.01',315)
+执行日期：20170427235641
+1704272356275201
+执行日期：20170427235641
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(01,560.00,1493308601,'支付宝购买商品',663)
+执行日期：20170427235641
+update up_user_goods set stock=stock-20 where spec_id =129 and uid=0 and goods_id=52
+执行日期：20170427235641
+1704272356275201
+执行日期：20170427235712
+1704272356558469
+执行日期：20170427235712
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(69,5500.00,1493308632,'支付宝购买商品',664)
+执行日期：20170427235712
+update up_user_goods set stock=stock-110 where spec_id =129 and uid= and goods_id=51
+执行日期：20170427235902
+bzj20170427233458313
+执行日期：20170427235902
+
+执行日期：20170427235902
+bzj20170427233458313
+执行日期：20170428000032
+bzj20170427223507308
+执行日期：20170428000032
+
+执行日期：20170428000032
+bzj20170427223507308
+执行日期：20170428000053
+bzj20170427233710313
+执行日期：20170428000053
+
+执行日期：20170428000053
+bzj20170427233710313
+执行日期：20170428000152
+bzj20170427235546315
+执行日期：20170428000152
+Array
+执行日期：20170428000152
+bzj20170427235546315
+执行日期：20170428000213
+bzj20170427235521314
+执行日期：20170428000213
+Array
+执行日期：20170428000213
+bzj20170427235521314
+执行日期：20170428000423
+1704272356558469
+执行日期：20170428000423
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(69,5500.00,1493309063,'支付宝购买商品',664)
+执行日期：20170428000423
+update up_user_goods set stock=stock-110 where spec_id =129 and uid= and goods_id=51
+执行日期：20170428000934
+bzj20170427235521314
+执行日期：20170428000934
+Array
+执行日期：20170428000934
+bzj20170427235521314
+执行日期：20170428001126
+1704272356558469
+执行日期：20170428001126
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(69,5500.00,1493309486,'支付宝购买商品',664)
+执行日期：20170428001126
+update up_user_goods set stock=stock-110 where spec_id =129 and uid= and goods_id=51
+执行日期：20170428001331
+bzj20170427235546315
+执行日期：20170428001331
+Array
+执行日期：20170428001331
+bzj20170427235546315
+执行日期：20170428001853
+bzj20170427235521314
+执行日期：20170428001853
+Array
+执行日期：20170428001853
+bzj20170427235521314
+执行日期：20170428002003
+bzj20170427235546315
+执行日期：20170428002003
+Array
+执行日期：20170428002003
+bzj20170427235546315
+执行日期：20170428002052
+1704272356558469
+执行日期：20170428002052
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(69,5500.00,1493310052,'支付宝购买商品',664)
+执行日期：20170428002052
+update up_user_goods set stock=stock-110 where spec_id =129 and uid= and goods_id=51
+执行日期：20170428004051
+bzj20170427211623306
+执行日期：20170428004051
+Array
+执行日期：20170428004051
+bzj20170427211623306
+执行日期：20170428004319
+bzj20170427211649307
+执行日期：20170428004319
+Array
+执行日期：20170428004319
+bzj20170427211649307
+执行日期：20170428010530
+1704272140303020
+执行日期：20170428010530
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(20,690000.00,1493312730,'支付宝购买商品',630)
+执行日期：20170428010530
+update up_user_goods set stock=stock-3000 where spec_id =131 and uid= and goods_id=55
+执行日期：20170428010530
+update up_user_goods set stock=stock-30000 where spec_id =131 and uid= and goods_id=56
+执行日期：20170428011455
+1704272149202044
+执行日期：20170428011455
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(44,2.00,1493313295,'支付宝购买商品',636)
+执行日期：20170428011455
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170428012013
+bzj20170427235546315
+执行日期：20170428012013
+Array
+执行日期：20170428012013
+bzj20170427235546315
+执行日期：20170428012035
+bzj20170427235521314
+执行日期：20170428012035
+Array
+执行日期：20170428012035
+bzj20170427235521314
+执行日期：20170428012235
+1704272356558469
+执行日期：20170428012235
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(69,5500.00,1493313755,'支付宝购买商品',664)
+执行日期：20170428012235
+update up_user_goods set stock=stock-110 where spec_id =129 and uid= and goods_id=51
+执行日期：20170428013020
+bzj20170427220551309
+执行日期：20170428013020
+Array
+执行日期：20170428013020
+bzj20170427220551309
+执行日期：20170428014020
+1704272216035035
+执行日期：20170428014020
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(35,5500.00,1493314820,'支付宝购买商品',643)
+执行日期：20170428014020
+update up_user_goods set stock=stock-100 where spec_id =131 and uid= and goods_id=55
+执行日期：20170428014836
+1704272223504458
+执行日期：20170428014836
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(58,2500.00,1493315316,'支付宝购买商品',644)
+执行日期：20170428014836
+update up_user_goods set stock=stock-100 where spec_id =131 and uid= and goods_id=55
+执行日期：20170428032204
+bzj20170427235521314
+执行日期：20170428032204
+Array
+执行日期：20170428032204
+bzj20170427235521314
+执行日期：20170428032251
+bzj20170427235546315
+执行日期：20170428032251
+Array
+执行日期：20170428032251
+bzj20170427235546315
+执行日期：20170428032453
+1704272356558469
+执行日期：20170428032453
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(69,5500.00,1493321093,'支付宝购买商品',664)
+执行日期：20170428032453
+update up_user_goods set stock=stock-110 where spec_id =129 and uid= and goods_id=51
+执行日期：20170428064202
+bzj20170427211623306
+执行日期：20170428064202
+Array
+执行日期：20170428064202
+bzj20170427211623306
+执行日期：20170428064404
+bzj20170427211649307
+执行日期：20170428064404
+Array
+执行日期：20170428064404
+bzj20170427211649307
+执行日期：20170428070620
+1704272140303020
+执行日期：20170428070620
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(20,690000.00,1493334380,'支付宝购买商品',630)
+执行日期：20170428070620
+update up_user_goods set stock=stock-3000 where spec_id =131 and uid= and goods_id=55
+执行日期：20170428070620
+update up_user_goods set stock=stock-30000 where spec_id =131 and uid= and goods_id=56
+执行日期：20170428071722
+1704272149202044
+执行日期：20170428071722
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(44,2.00,1493335042,'支付宝购买商品',636)
+执行日期：20170428071722
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170428073122
+bzj20170427220551309
+执行日期：20170428073122
+Array
+执行日期：20170428073122
+bzj20170427220551309
+执行日期：20170428074155
+1704272216035035
+执行日期：20170428074155
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(35,5500.00,1493336515,'支付宝购买商品',643)
+执行日期：20170428074155
+update up_user_goods set stock=stock-100 where spec_id =131 and uid= and goods_id=55
+执行日期：20170428074956
+1704272223504458
+执行日期：20170428074956
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(58,2500.00,1493336996,'支付宝购买商品',644)
+执行日期：20170428074956
+update up_user_goods set stock=stock-100 where spec_id =131 and uid= and goods_id=55
+执行日期：20170428084718
+bzj20170428084640316
+执行日期：20170428084718
+Array
+执行日期：20170428084718
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=316
+执行日期：20170428084718
+1
+执行日期：20170428084718
+insert into up_bzj (time,money,uid) values('1493340438','0.01',316)
+执行日期：20170428085354
+bzj20170428084640316
+执行日期：20170428085354
+Array
+执行日期：20170428085354
+bzj20170428084640316
+执行日期：20170428090131
+bzj20170428084640316
+执行日期：20170428090131
+Array
+执行日期：20170428090131
+bzj20170428084640316
+执行日期：20170428090410
+wcz20170428090401316
+执行日期：20170428090410
+update up_users set user_money = user_money+0.01 where user_id=316
+执行日期：20170428090410
+insert into up_user_rechage (user_id,money,time) values(316,'0.01','1493341450')
+执行日期：20170428090410
+wcz20170428090401316
+执行日期：20170428091135
+bzj20170428084640316
+执行日期：20170428091135
+
+执行日期：20170428091135
+bzj20170428084640316
+执行日期：20170428091925
+bzj20170427235521314
+执行日期：20170428091925
+Array
+执行日期：20170428091925
+bzj20170427235521314
+执行日期：20170428092203
+bzj20170427235546315
+执行日期：20170428092203
+Array
+执行日期：20170428092203
+bzj20170427235546315
+执行日期：20170428092251
+1704272356558469
+执行日期：20170428092251
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(69,5500.00,1493342571,'支付宝购买商品',664)
+执行日期：20170428092251
+update up_user_goods set stock=stock-110 where spec_id =129 and uid= and goods_id=51
+执行日期：20170428095056
+bzj20170428095043317
+执行日期：20170428095056
+Array
+执行日期：20170428095056
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=317
+执行日期：20170428095056
+1
+执行日期：20170428095056
+insert into up_bzj (time,money,uid) values('1493344256','0.01',317)
+执行日期：20170428095722
+bzj20170428095043317
+执行日期：20170428095722
+Array
+执行日期：20170428095722
+bzj20170428095043317
+执行日期：20170428100929
+bzj20170428095043317
+执行日期：20170428100929
+Array
+执行日期：20170428100929
+bzj20170428095043317
+执行日期：20170428101451
+bzj20170428095043317
+执行日期：20170428101451
+Array
+执行日期：20170428101451
+bzj20170428095043317
+执行日期：20170428111834
+bzj20170428095043317
+执行日期：20170428111834
+Array
+执行日期：20170428111834
+bzj20170428095043317
+执行日期：20170428131826
+bzj20170428095043317
+执行日期：20170428131826
+Array
+执行日期：20170428131826
+bzj20170428095043317
+执行日期：20170428191449
+bzj20170428095043317
+执行日期：20170428191449
+Array
+执行日期：20170428191449
+bzj20170428095043317
+执行日期：20170428214220
+bzj20170427211623306
+执行日期：20170428214220
+Array
+执行日期：20170428214220
+bzj20170427211623306
+执行日期：20170428214411
+bzj20170427211649307
+执行日期：20170428214411
+Array
+执行日期：20170428214411
+bzj20170427211649307
+执行日期：20170428220624
+1704272140303020
+执行日期：20170428220624
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(20,690000.00,1493388384,'支付宝购买商品',630)
+执行日期：20170428220624
+update up_user_goods set stock=stock-3000 where spec_id =131 and uid= and goods_id=55
+执行日期：20170428220624
+update up_user_goods set stock=stock-30000 where spec_id =131 and uid= and goods_id=56
+执行日期：20170428221255
+1704272149202044
+执行日期：20170428221255
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(44,2.00,1493388775,'支付宝购买商品',636)
+执行日期：20170428221255
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170428223234
+bzj20170427220551309
+执行日期：20170428223235
+Array
+执行日期：20170428223235
+bzj20170427220551309
+执行日期：20170428224303
+1704272216035035
+执行日期：20170428224303
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(35,5500.00,1493390583,'支付宝购买商品',643)
+执行日期：20170428224303
+update up_user_goods set stock=stock-100 where spec_id =131 and uid= and goods_id=55
+执行日期：20170428225020
+1704272223504458
+执行日期：20170428225020
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(58,2500.00,1493391020,'支付宝购买商品',644)
+执行日期：20170428225020
+update up_user_goods set stock=stock-100 where spec_id =131 and uid= and goods_id=55
+执行日期：20170429002153
+bzj20170427235521314
+执行日期：20170429002153
+
+执行日期：20170429002153
+bzj20170427235521314
+执行日期：20170429002249
+bzj20170427235546315
+执行日期：20170429002249
+
+执行日期：20170429002249
+bzj20170427235546315
+执行日期：20170429002455
+1704272356558469
+执行日期：20170429002455
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(69,5500.00,1493396695,'支付宝购买商品',664)
+执行日期：20170429002455
+update up_user_goods set stock=stock-110 where spec_id =129 and uid= and goods_id=51
+执行日期：20170429101531
+bzj20170428095043317
+执行日期：20170429101531
+Array
+执行日期：20170429101531
+bzj20170428095043317
+执行日期：20170504171224
+1705041711471495
+执行日期：20170504171224
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(95,5.00,1493889144,'支付宝购买商品',759)
+执行日期：20170504171224
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170504171357
+1705041713323599
+执行日期：20170504171357
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(99,55.00,1493889237,'支付宝购买商品',760)
+执行日期：20170504171357
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170504171445
+1705041714324562
+执行日期：20170504171445
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(62,2.00,1493889285,'支付宝购买商品',763)
+执行日期：20170504171445
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170504171445
+1705041714086808
+执行日期：20170504171445
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(08,30.00,1493889285,'支付宝购买商品',761)
+执行日期：20170504171445
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170504171934
+1705041711471495
+执行日期：20170504171934
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(95,5.00,1493889574,'支付宝购买商品',759)
+执行日期：20170504171934
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170504172154
+1705041714324562
+执行日期：20170504172154
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(62,2.00,1493889714,'支付宝购买商品',763)
+执行日期：20170504172154
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170504172201
+1705041713323599
+执行日期：20170504172201
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(99,55.00,1493889721,'支付宝购买商品',760)
+执行日期：20170504172201
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170504172220
+1705041714086808
+执行日期：20170504172220
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(08,30.00,1493889740,'支付宝购买商品',761)
+执行日期：20170504172220
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170504172234
+1705041721072777
+执行日期：20170504172234
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(77,50.00,1493889754,'支付宝购买商品',766)
+执行日期：20170504172234
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170504172619
+1705041711471495
+执行日期：20170504172619
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(95,5.00,1493889979,'支付宝购买商品',759)
+执行日期：20170504172619
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170504172804
+1705041713323599
+执行日期：20170504172804
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(99,55.00,1493890084,'支付宝购买商品',760)
+执行日期：20170504172804
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170504172852
+1705041714324562
+执行日期：20170504172852
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(62,2.00,1493890132,'支付宝购买商品',763)
+执行日期：20170504172852
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170504172916
+1705041714086808
+执行日期：20170504172916
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(08,30.00,1493890156,'支付宝购买商品',761)
+执行日期：20170504172916
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170504172952
+1705041721072777
+执行日期：20170504172952
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(77,50.00,1493890192,'支付宝购买商品',766)
+执行日期：20170504172952
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170504173719
+1705041721072777
+执行日期：20170504173719
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(77,50.00,1493890639,'支付宝购买商品',766)
+执行日期：20170504173719
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170504173858
+1705041711471495
+执行日期：20170504173858
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(95,5.00,1493890738,'支付宝购买商品',759)
+执行日期：20170504173858
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170504174013
+1705041714086808
+执行日期：20170504174013
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(08,30.00,1493890813,'支付宝购买商品',761)
+执行日期：20170504174013
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170504174046
+1705041713323599
+执行日期：20170504174046
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(99,55.00,1493890846,'支付宝购买商品',760)
+执行日期：20170504174046
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170504174049
+1705041714324562
+执行日期：20170504174049
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(62,2.00,1493890849,'支付宝购买商品',763)
+执行日期：20170504174049
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170504174909
+1705041721072777
+执行日期：20170504174909
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(77,50.00,1493891349,'支付宝购买商品',766)
+执行日期：20170504174909
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170504183635
+1705041711471495
+执行日期：20170504183635
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(95,5.00,1493894195,'支付宝购买商品',759)
+执行日期：20170504183635
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170504183745
+1705041713323599
+执行日期：20170504183745
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(99,55.00,1493894265,'支付宝购买商品',760)
+执行日期：20170504183745
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170504184018
+1705041714086808
+执行日期：20170504184018
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(08,30.00,1493894418,'支付宝购买商品',761)
+执行日期：20170504184018
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170504184338
+1705041714324562
+执行日期：20170504184338
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(62,2.00,1493894618,'支付宝购买商品',763)
+执行日期：20170504184338
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170504184643
+1705041721072777
+执行日期：20170504184643
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(77,50.00,1493894803,'支付宝购买商品',766)
+执行日期：20170504184643
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170504203707
+1705041711471495
+执行日期：20170504203707
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(95,5.00,1493901427,'支付宝购买商品',759)
+执行日期：20170504203707
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170504204019
+1705041714086808
+执行日期：20170504204019
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(08,30.00,1493901619,'支付宝购买商品',761)
+执行日期：20170504204019
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170504204146
+1705041713323599
+执行日期：20170504204146
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(99,55.00,1493901706,'支付宝购买商品',760)
+执行日期：20170504204146
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170504204217
+1705041714324562
+执行日期：20170504204217
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(62,2.00,1493901737,'支付宝购买商品',763)
+执行日期：20170504204217
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170504204722
+1705041721072777
+执行日期：20170504204722
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(77,50.00,1493902042,'支付宝购买商品',766)
+执行日期：20170504204722
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170505023550
+1705041711471495
+执行日期：20170505023550
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(95,5.00,1493922950,'支付宝购买商品',759)
+执行日期：20170505023550
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170505023851
+1705041714086808
+执行日期：20170505023851
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(08,30.00,1493923131,'支付宝购买商品',761)
+执行日期：20170505023851
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170505023934
+1705041714324562
+执行日期：20170505023934
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(62,2.00,1493923174,'支付宝购买商品',763)
+执行日期：20170505023934
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170505023934
+1705041713323599
+执行日期：20170505023934
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(99,55.00,1493923174,'支付宝购买商品',760)
+执行日期：20170505023934
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170505025109
+1705041721072777
+执行日期：20170505025109
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(77,50.00,1493923869,'支付宝购买商品',766)
+执行日期：20170505025109
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170505173942
+1705041711471495
+执行日期：20170505173942
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(95,5.00,1493977182,'支付宝购买商品',759)
+执行日期：20170505173942
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170505173955
+1705041714086808
+执行日期：20170505173955
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(08,30.00,1493977195,'支付宝购买商品',761)
+执行日期：20170505173955
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170505174204
+1705041714324562
+执行日期：20170505174204
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(62,2.00,1493977324,'支付宝购买商品',763)
+执行日期：20170505174204
+update up_user_goods set stock=stock-1 where spec_id =133 and uid= and goods_id=53
+执行日期：20170505174212
+1705041713323599
+执行日期：20170505174212
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(99,55.00,1493977332,'支付宝购买商品',760)
+执行日期：20170505174212
+update up_user_goods set stock=stock-1 where spec_id =132 and uid= and goods_id=54
+执行日期：20170505174853
+1705041721072777
+执行日期：20170505174853
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(77,50.00,1493977733,'支付宝购买商品',766)
+执行日期：20170505174853
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170508112618
+bzj20170508112600355
+执行日期：20170508112618
+Array
+执行日期：20170508112618
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=355
+执行日期：20170508112618
+1
+执行日期：20170508112618
+insert into up_pledge (pledge_time,pledge_money,user_id) values('1494213978','0.01',355)
+执行日期：20170508112618
+bzj20170508112600355
+执行日期：20170508113215
+bzj20170508113205357
+执行日期：20170508113215
+Array
+执行日期：20170508113215
+update up_users set is_lock=2 , pledge_money=pledge_money+0.01 where user_id=357
+执行日期：20170508113215
+1
+执行日期：20170508113215
+insert into up_pledge (pledge_time,pledge_name,pledge_money,user_id) values('1494214335','支付宝缴纳保证金','0.01',357)
+执行日期：20170508113215
+bzj20170508113205357
+执行日期：20170508113226
+bzj20170508112600355
+执行日期：20170508113226
+
+执行日期：20170508113226
+bzj20170508112600355
+执行日期：20170508113903
+bzj20170508113205357
+执行日期：20170508113903
+Array
+执行日期：20170508113903
+bzj20170508113205357
+执行日期：20170508114557
+bzj20170508113205357
+执行日期：20170508114557
+
+执行日期：20170508114557
+bzj20170508113205357
+执行日期：20170508175815
+1705081756415917
+执行日期：20170508175815
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(17,4.00,1494237495,'支付宝购买商品',885)
+执行日期：20170508175815
+update up_user_goods set stock=stock-2 where spec_id =133 and uid= and goods_id=53
+执行日期：20170508180548
+1705081756415917
+执行日期：20170508180548
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(17,4.00,1494237948,'支付宝购买商品',885)
+执行日期：20170508180548
+update up_user_goods set stock=stock-2 where spec_id =133 and uid= and goods_id=53
+执行日期：20170508181212
+1705081756415917
+执行日期：20170508181212
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(17,4.00,1494238332,'支付宝购买商品',885)
+执行日期：20170508181212
+update up_user_goods set stock=stock-2 where spec_id =133 and uid= and goods_id=53
+执行日期：20170508182355
+1705081756415917
+执行日期：20170508182355
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(17,4.00,1494239035,'支付宝购买商品',885)
+执行日期：20170508182355
+update up_user_goods set stock=stock-2 where spec_id =133 and uid= and goods_id=53
+执行日期：20170508192358
+1705081756415917
+执行日期：20170508192358
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(17,4.00,1494242638,'支付宝购买商品',885)
+执行日期：20170508192358
+update up_user_goods set stock=stock-2 where spec_id =133 and uid= and goods_id=53
+执行日期：20170508212441
+1705081756415917
+执行日期：20170508212442
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(17,4.00,1494249882,'支付宝购买商品',885)
+执行日期：20170508212442
+update up_user_goods set stock=stock-2 where spec_id =133 and uid= and goods_id=53
+执行日期：20170509032151
+1705081756415917
+执行日期：20170509032151
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(17,4.00,1494271311,'支付宝购买商品',885)
+执行日期：20170509032151
+update up_user_goods set stock=stock-2 where spec_id =133 and uid= and goods_id=53
+执行日期：20170510171657
+1705101716393774
+执行日期：20170510171657
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(74,30.00,1494407817,'支付宝购买商品',892)
+执行日期：20170510171657
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170510172504
+1705101716393774
+执行日期：20170510172504
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(74,30.00,1494408304,'支付宝购买商品',892)
+执行日期：20170510172504
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170510173038
+1705101716393774
+执行日期：20170510173038
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(74,30.00,1494408638,'支付宝购买商品',892)
+执行日期：20170510173038
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170510174348
+1705101716393774
+执行日期：20170510174348
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(74,30.00,1494409428,'支付宝购买商品',892)
+执行日期：20170510174348
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170510184043
+1705101716393774
+执行日期：20170510184043
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(74,30.00,1494412843,'支付宝购买商品',892)
+执行日期：20170510184043
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170510204057
+1705101716393774
+执行日期：20170510204057
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(74,30.00,1494420057,'支付宝购买商品',892)
+执行日期：20170510204057
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170511024334
+1705101716393774
+执行日期：20170511024334
+insert into up_account_log (user_id,user_money,change_time,`desc`,order_id) value(74,30.00,1494441814,'支付宝购买商品',892)
+执行日期：20170511024334
+update up_user_goods set stock=stock-1 where spec_id =129 and uid= and goods_id=51
+执行日期：20170512171618
+wcz20170512171528398
+执行日期：20170512171618
+update up_users set user_money = user_money+0.01 where user_id=398
+执行日期：20170512171618
+insert into up_user_rechage (user_id,money,time) values(398,'0.01','1494580578')
+执行日期：20170512171618
+wcz20170512171528398
+执行日期：20170512171834
+wcz20170512171824398
+执行日期：20170512171834
+update up_users set user_money = user_money+0.01 where user_id=398
+执行日期：20170512171834
+insert into up_user_rechage (user_id,money,time) values(398,'0.01','1494580714')
+执行日期：20170512171834
+wcz20170512171824398

@@ -1,0 +1,84 @@
+<include file="Public/header"/>
+</head>
+
+<body>
+<div id="pageContent">
+<div class="header2">
+    	<a><i onClick="history.go(-1)"></i></a>
+        <!--<a href="{:U('Mobile/Index/index')}" class="icon icon_home"></a>-->
+        <aside class="top_bar" style="display:none">
+         <div onClick="show_menu();$('#close_btn').addClass('hid');" id="show_more"><a href="javascript:;"></a> </div>
+       </aside>
+       <p>提现</p>
+    </div>
+    <include file="Public/menu"/>
+    <div style="height:45px;"></div>
+    
+	<div class="centent_box col-xs-12" >
+		<div class="z-tx-box color-blue">
+			<h3 class="head">到账帐户：<span class="text-primary"></span></h3>
+			<div class="col-xs-12 z-tx-box-btn" style="border-bottom:1px solid #ccc;">
+				<span></span>
+				<!--<input class="bank" type="text" placeholder="" value="{$account.account_name}--{$account.account_num}" readonly>-->
+                <div>
+                <select class="form-control2 bank">
+                	<option value="">点击选择提现账户</option>
+                	<foreach name="account" item="item">
+                		<option value="{$item.id}">{$item.account_name}--{$item.account_num}</option>
+                	</foreach>
+                </select>
+                </div>
+			</div>
+			
+			<div class="col-xs-12 border-bottom z-tx-box-btn">
+				<h2 class="title">提现金额￥：</h2>
+				<input class="money" type="text" placeholder="">
+				<input type="hidden" id="allmoney" value="{$user_info.user_money}"/>
+			</div>
+			<div class="col-xs-12 z-tx-footer  clearfix"><div class="">我的余额：<strong class="text-primary" >￥<span id="user_money">{$user_info.user_money}</span></strong><a class="lead pull-right doall_cash">全部提现</a></div></div>
+		</div>
+	</div>
+	<div class="z-page-btn z-padding-4x" style="background:none;">
+		<a class="btn btn-block btn-lg z-bg-main do_cash" >确认提现</a>
+	</div>
+	<include file="Public/footer"/>
+</div>
+<!-- <script src="../js/jquery-1.9.1.min.js"></script>
+<script src="../js/zui.min.js"></script> -->
+<script>
+$(function(){
+	$(".do_cash").click(function(){
+		var bank = $('.bank').val();
+		var money = $('.money').val();
+		var moneyRegex = /^(([1-9]\d{0,20})|0)(\.\d{1,2})?$/;
+		if(isNaN(money)){
+			alert('请输入正确的金额');
+			return;
+		}
+		if(!moneyRegex.test(money)){
+		   alert('只能保留到小数点后两位');
+			return;
+		}
+		var num = Number(parseFloat($('#allmoney').val()) - parseFloat(money)).toFixed(2);
+		console.log(bank+'+'+money);
+		//return;
+		$.post('',{bank:bank,money:money},function(resp){
+			if(resp.status==1){
+				var num = Number(parseFloat($('#allmoney').val()) - parseFloat(money)).toFixed(2);
+				$('#allmoney').val(num);
+				$('#user_money').text(num);
+				alert(resp.info);
+				location.href="{:U('cash_list')}";
+			}else{
+				alert(resp.info)
+			}
+		})
+	});
+	$('.doall_cash').click(function(){
+		$('.money').val($('#allmoney').val());
+		//$(".do_cash").click();
+	})
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+	<include file="Mypublic/header"/>
+	<!-- banner -->
+<style>
+.z-news{padding-top:50px;padding-bottom:50px;}
+</style>
+   <div class="z-news ccshop active">
+   <foreach name='article' item='ar'>
+    	<div class="ccshop-item sever sssq">
+    	 <a href="{:U('article')}?article_id={$ar.article_id}">
+			<img class="ccshop-img" src="{$ar.thumb}" alt="">
+            <div class="ccshop-content">
+                <h3 class="text-ellipsis">{$ar.title}</h3>
+                <p><php>echo date('Y-m-d',$ar['publish_time']);</php></p>
+            </div>
+         </a>
+        </div>
+    </foreach>
+    </div>
+    <include file="Public/footer"/>
+</body>
+</html>

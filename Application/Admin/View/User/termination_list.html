@@ -1,0 +1,91 @@
+<include file="Public/min-header"/>
+<div class="wrapper">
+    <!-- Content Header (Page header) -->
+   <include file="Public/breadcrumb"/>
+    <section class="content">
+    <!-- Main content -->
+    <!--<div class="container-fluid">-->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><i class="fa fa-list"></i> 经销商信息</h3>
+            </div>
+            
+            
+                    <form method="post" enctype="multipart/form-data" target="_blank" id="form-order">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover">
+                                <thead>
+                                <tr>
+                                    <td style="width: 1px;" class="text-center"><input type="checkbox" onclick="$('input[name*=\'selected\']').prop('checked', this.checked);"></td>
+                                    </td>
+                                    <td class="text-left">
+                                        <a href="javascript:sort('user_id');">UID</a>
+                                    </td>
+                                    <td class="text-left">
+                                        <a href="javascript:sort('user_id');">昵称</a>
+                                    </td>
+                                    <td class="text-left">
+                                        <a href="javascript:sort('user_id');">上级经销商</a>
+                                    </td>
+                                    <td class="text-left">
+                                        <a href="javascript:sort('level');">账号</a>
+                                    </td>
+                                    <td class="text-left">
+                                        <a href="javascript:sort('total_amount');">时间</a>
+                                    </td>
+                                    <td class="text-left">
+                                        <a href="javascript:sort('email');">原因</a>
+                                    </td>
+                                    <td class="text-left">
+                                        <a href="javascript:sort('email');">已申请时间</a>
+                                    </td>
+                                    <!--<td class="text-left">
+                                        <a href="javascript:sort('email');">状态</a>
+                                    </td>-->
+                                    <td class="text-left">操作</td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <volist name="data" id="list">
+                                    <tr>
+                                        <td class="text-center">
+                                            <input type="checkbox" name="selected[]" value="6">
+                                            <input type="hidden" name="shipping_code[]" value="flat.flat">
+                                        </td>
+                                        <td class="text-right">{$list.uid}</td>
+                                        <td class="text-left">{$list.username}</td>
+                                        <td class="text-left">{$list.parent_id|get_username}</td>
+                                        <td class="text-left">{$list.mobile}</td>
+                                        <td class="text-left">{$list.create_time|date='Y-m-d H:i',###}</td>
+                                        <td class="text-left">{$list.reason}</td>
+                                        <td class="text-left">{$list.create_time|get_termination_time}</td>
+                                        <!--<td class="text-left">{$list.status|get_termination_status}</td>-->
+                                        <td class="text-left">
+                                            <a href="{:U('Admin/user/change_termination_status',array('uid'=>$list['uid'],'status'=>1))}" data-toggle="tooltip" title="" class="btn btn-info" data-original-title="同意">同意</a>
+                                            <!--<a href="{:U('Admin/user/change_termination_status',array('uid'=>$list['uid'],'status'=>2))}" data-toggle="tooltip" title="" class="btn btn-info" data-original-title="调解">调解</a>-->
+                                            <a href="{:U('Admin/user/change_termination_status',array('uid'=>$list['uid'],'status'=>-1))}" id="button-delete6" data-toggle="tooltip" title="" class="btn btn-danger" data-original-title="删除">删除</a>
+                                        </td>
+                                    </tr>
+                                </volist>
+                                </tbody>
+                            </table>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <div class="col-sm-6 text-left"></div>
+                        <div class="col-sm-6 text-right">{$page}</div>
+                 </div>
+                </div>
+            </div>
+          </div>
+      </section>
+</div>
+                    
+<script>
+    $(".pagination  a").click(function(){
+        var page = $(this).data('p');
+        ajax_get_table('search-form2',page);
+    });
+</script>

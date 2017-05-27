@@ -1,0 +1,24 @@
+<include file="Public/header"/>
+<body>
+<div id="pageContent">
+	<div class="header2">
+    	<a onClick="history.go(-1)"><i></i><span></span></a>
+        <!--<a href="{:U('Mobile/Index/index')}" class="icon icon_home"></a>-->
+        <aside class="top_bar">
+         <div onClick="show_menu();$('#close_btn').addClass('hid');" id="show_more"><a href="javascript:;"></a> </div>
+       </aside>
+        <p>帐户管理</p>
+    </div>
+    <include file="Public/menu"/>
+    <div style="height:50px;"></div>
+    
+	<div class="z-notice_detail with-padding">
+    	<h2 class="text-center">{$detail.title}</h3>
+        <p class="text-right text-muted">{$detail.c_time}</p>
+        <div class="z-notice_detail_content">
+        	{$detail.content}
+        </div>
+    </div>
+</div>
+</body>
+</html>

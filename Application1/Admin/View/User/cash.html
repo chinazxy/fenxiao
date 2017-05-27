@@ -1,0 +1,94 @@
+<include file="Public/min-header"/>
+<div class="wrapper">
+    <!-- Content Header (Page header) -->
+   <include file="Public/breadcrumb"/>
+    <section class="content">
+    <!-- Main content -->
+    <!--<div class="container-fluid">-->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><i class="fa fa-list"></i> 经销商取现</h3>
+            </div>
+            
+            
+                    <form method="post" enctype="multipart/form-data" target="_blank" id="form-order">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover">
+                                <thead>
+                                <tr>
+                                   <!--  <td style="width: 1px;" class="text-center"><input type="checkbox" onclick="$('input[name*=\'selected\']').prop('checked', this.checked);"></td>
+                                    </td> -->
+                                    <th class="">
+                                        <a href="javascript:sort('user_id');">UID</a>
+                                    </th>
+                                    <th class="">
+                                        <a href="javascript:sort('user_id');">昵称</a>
+                                    </th>
+                                    <th class="">
+                                        <a href="javascript:sort('level');">账号</a>
+                                    </th>
+                                    <th class="">
+                                        <a href="javascript:sort('user_id');">支付宝</a>
+                                    </th>
+                                    <th class="">
+                                        <a href="javascript:sort('user_id');">当前余额</a>
+                                    </th>
+                                    <th class="">
+                                        <a href="javascript:sort('user_id');">提现金额</a>
+                                    </th>
+                                    <th class="">
+                                        <a href="javascript:sort('total_amount');">时间</a>
+                                    </th>
+                                    <th class="">
+                                        <a href="javascript:sort('email');">状态</a>
+                                    </th>
+                                    <th >操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <volist name="cash_list" id="list">
+                                    <tr>
+                                    <!--     <td class="text-center">
+                                            <input type="checkbox" name="selected[]" value="6">
+                                            <input type="hidden" name="shipping_code[]" value="flat.flat">
+                                        </td> -->
+                                        <td class="text-right">{$list.user_id}</td>
+                                        <td class="text-left">{$list.user_name}</td>
+                                        <td class="text-left">{$list.mobile}</td>
+                                        <td class="text-left">{$list.bank}</td>
+                                        <td class="text-left">{$list.user_money}</td>
+                                        <td class="text-left">{$list.money}</td>
+                                        <td class="text-left">{$list.create_time|date='Y-m-d H:i',###}</td>
+                                        <td class="text-left">{$list.status|get_cash_status}</td>
+                                        <td class="text-right">
+                                        <if condition="$list.status eq 0">
+                                            <a href="{:U('Admin/user/change_cash_status',array('id'=>$list['id'],'status'=>1,'user_id'=>$list['user_id'],'money'=>$list['money']))}" data-toggle="tooltip" title="" class="btn btn-info" data-original-title="同意">同意</a>
+                                            <a href="{:U('Admin/user/change_cash_status',array('id'=>$list['id'],'status'=>2,'user_id'=>$list['user_id'],'money'=>$list['money']))}" data-toggle="tooltip" title="" class="btn btn-info" data-original-title="拒绝">拒绝</a>
+                                         <else />	
+                                            <!--<a href="{:U('Admin/user/change_cash_status',array('id'=>$list['id'],'status'=>-1,'user_id'=>$list['user_id'],'money'=>$list['money']))}" id="button-delete6" data-toggle="tooltip" title="" class="btn btn-danger" data-original-title="删除">删除</a>-->
+                                         </if>
+                                        </td>
+                                    </tr>
+                                </volist>
+                                </tbody>
+                            </table>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <div class="col-sm-6 text-left"></div>
+                        <div class="col-sm-6 text-right">{$page}</div>
+                 </div>
+                </div>
+            </div>
+          </div>
+      </section>
+</div>
+                    
+<script>
+    $(".pagination  a").click(function(){
+        var page = $(this).data('p');
+        ajax_get_table('search-form2',page);
+    });
+</script>

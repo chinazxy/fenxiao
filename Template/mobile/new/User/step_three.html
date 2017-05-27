@@ -1,0 +1,80 @@
+<!doctype>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<title>官网</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="__STATIC__/css/main.css" type="text/css">
+<script type="text/javascript" src="__STATIC__/js/jquery-1.9.1.min.js"></script>
+</head>
+
+<body>
+<div class="wrap">
+    <!--头部-->
+    <div class="header2">
+        <a><i></i><span></span></a>
+        <a class="icon icon_home"></a>
+        <p>选择您想加盟的等级</p>
+    </div>
+
+    <div class="distributor_dj">
+        <div class="distributor_dj_box">
+	         <foreach name='levelList' item='le'>
+	          <php>if(empty($level)){</php>
+	            <input class='levels' type='radio' name='level' value='{$le.level_id}'/>
+	            <div class="distributor_dj_j">
+	                <div class="distributor_dj_name">{$le.name}</div>
+	                <div class="distributor_dj_jj">{$le.describe}</div>
+	            </div>
+	          <php>}else{
+	             if($level['level_id']==$le['level_id']){
+	          </php>
+	              <input class='levels' type='radio' name='level' value='{$le.level_id}'/>
+	              <div class="distributor_dj_j">
+                    <div class="distributor_dj_name">{$le.level_name}</div>
+                    <div class="distributor_dj_jj">{$le.describe}</div>
+                </div>
+	          <php>
+	           break;
+	          }}</php>
+	         </foreach>
+        </div>
+        <div class="distributor_dj_t"><input class='agree' name="" type="checkbox" value="1"><span>同意<a>《诚享东方经销商等级协议》</a></span></div>
+        <div class="distributor_dj_a"><a>下一步</a></div>
+        <form id='form' method='POST' action="{:U('step_four')}" >
+            <input type='hidden' name='mobile' value='{$info.mobile}'/>
+            <input type='hidden' name='password' value='{$info.password}'/>
+            <input class='parent' type='hidden' name='parent' value='{$info.parent_id}'/>
+            <input class='myle' type='hidden' name='level' value='' />
+        </form>
+    </div>
+
+
+</div>
+<script type="text/javascript">
+   $(function(){
+	   $('.levels').on('change',function(){
+		   $('.myle').val($(this).val());
+	   })
+	   $('.distributor_dj_a').on('click',function(){
+		   var level=$('.levels:checked').val();
+		   var agree=$('.agree:checked').val();
+		   var parent = $.trim($('.parent').val());
+		   if(level&&agree){
+			   if(parent!=""){
+				   $('#form').submit();
+				   return ;
+			   }else{
+				   $('#form').attr('action',"{:U('select_parent')}");
+				   $('#form').submit();
+			   }
+		   }
+	   })
+   })
+</script>
+</body>
+</html>

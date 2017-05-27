@@ -1,0 +1,59 @@
+<include file="Mypublic/header"/>
+
+<body class="bg_white">
+<div class="wrap">
+	<!--头部-->
+    <div class="header2">
+    	<a><i onclick="history.go(-1)"></i><span></span></a>
+        <a class="head_preserve">保存</a>
+        <p>我的帐号</p>
+    </div>
+    <form action='' method="post" class="userform">
+    
+    <div class="my_user">
+		<div class="my_user_box">
+        	<div class="list-block">
+                <div class="list-block_box list-block-small">
+                    <div class="list-block_box_left">昵称
+                    	<input name="nickname" type="text" value="{$user.nickname}" placeholder="请输入昵称"></div>
+                </div>
+            </div>
+        	<div class="list-block">
+                <div class="list-block_box list-block-small">
+                    <div class="list-block_box_left">姓名
+                    	<input name="username" type="text" value="{$user.username}" placeholder="请输入姓名"></div>
+                </div>
+            </div>
+            <div class="list-block">
+                <div class="list-block_box list-block-small">
+                    <div class="list-block_box_left">手机
+                    	<input name="mobile" type="text" value="{$user.mobile}" placeholder="请输入手机号码"></div>
+                </div>
+            </div>
+            <div class="list-block">
+                <div class="list-block_box list-block-small">
+                    <div class="list-block_box_left">邮箱
+                    	<input name="email" type="text" value="{$user.email}" placeholder="请输入邮箱地址"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+	</form>
+	<div class="cancel"><a href="{:U('User/logout')}" class="m_btn btn-block label-danger">注销</a></div>
+</div>
+<script type="text/javascript">
+var H = document.body.clientHeight;
+$('.H').css('height', H + 'px');
+
+$('.menu').click(function(){
+	$(this).toggleClass('on');
+})
+$(function(){
+	$(".head_preserve").click(function(){
+		$(".userform").submit();
+	});
+	
+});
+</script>
+</body>
+</html>
