@@ -1,0 +1,118 @@
+[ 2017-06-15T09:41:39+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [2] Missing argument 5 for Think\Controller::dispatchJump(), called in D:\phpstudy\WWW\fenxiao\ThinkPHP\Library\Think\Controller.class.php on line 187 and defined D:\phpstudy\WWW\fenxiao\ThinkPHP\Library\Think\Controller.class.php 第 261 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000778s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000819s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+
+[ 2017-06-15T09:41:41+08:00 ] 127.0.0.1 /Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [8] Undefined index: login D:\phpstudy\WWW\fenxiao\Application\Admin\Common\function.php 第 33 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000785s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000817s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-06-15T09:41:41+08:00 ] 127.0.0.1 /Admin/Admin/vertify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Undefined index: vertify D:\phpstudy\WWW\fenxiao\Application\Admin\Common\function.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2017-06-15T10:11:59+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Admin&a=login&t=0.2060086764601491
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Undefined index: login D:\phpstudy\WWW\fenxiao\Application\Admin\Common\function.php 第 33 行.
+
+[ 2017-06-15T10:11:59+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000799s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000847s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2017-06-15T10:11:59+08:00 ] 127.0.0.1 /Admin/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+NOTIC: [8] Undefined index: welcome D:\phpstudy\WWW\fenxiao\Application\Admin\Common\function.php 第 33 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\IndexController.class.php 第 59 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000695s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+

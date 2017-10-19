@@ -1,0 +1,758 @@
+[ 2017-06-13T09:34:27+08:00 ] 127.0.0.1 /Admin/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000999s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: page D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2017-06-13T09:34:29+08:00 ] 127.0.0.1 /Admin/Admin/role
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000952s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000997s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: page D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\20927eb07d3b96edd3fb6587372d1c00.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-06-13T09:34:31+08:00 ] 127.0.0.1 /Admin/Admin/role_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001065s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: detail D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 102 行.
+NOTIC: [8] Undefined variable: detail D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 106 行.
+NOTIC: [8] Undefined variable: detail D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 108 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Undefined index: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-06-13T09:36:38+08:00 ] 127.0.0.1 /Admin/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000934s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000978s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: page D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-06-13T09:36:40+08:00 ] 127.0.0.1 /Admin/Admin/role
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000877s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000919s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: page D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\20927eb07d3b96edd3fb6587372d1c00.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2017-06-13T09:36:41+08:00 ] 127.0.0.1 /Admin/Admin/role
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000931s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: page D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\20927eb07d3b96edd3fb6587372d1c00.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2017-06-13T10:06:34+08:00 ] 127.0.0.1 /Admin/System/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001242s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 105 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 106 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 115 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 116 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 115 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 116 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 105 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 106 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 115 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 116 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 105 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 106 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 115 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 116 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 105 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 106 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 115 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 116 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 115 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 116 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 105 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 106 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 115 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 116 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 105 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 106 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 115 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 116 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 115 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 116 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 115 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 116 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 105 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 106 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 115 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 116 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 105 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 106 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 115 行.
+NOTIC: [8] Use of undefined constant mod_id - assumed 'mod_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\1cd14831ca0a289575542efe98c11990.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2017-06-13T10:06:36+08:00 ] 127.0.0.1 /Admin/System/create_menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+NOTIC: [8] Undefined index: create_menu D:\phpstudy\WWW\fenxiao\Application\Admin\Common\function.php 第 33 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000979s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 71 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 85 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 87 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 88 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 89 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 89 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 89 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 89 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 89 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 89 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 89 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 89 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 89 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 89 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 89 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 89 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 89 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 89 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 89 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 89 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 97 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 98 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 99 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 100 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 101 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 102 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 103 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 106 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 107 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 108 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 109 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 110 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 111 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 112 行.
+NOTIC: [8] Undefined variable: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\65459619f0431840908e08a3f02dd1d8.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2017-06-13T13:58:26+08:00 ] 127.0.0.1 /Admin/Admin/role
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000654s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000700s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined variable: page D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\20927eb07d3b96edd3fb6587372d1c00.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-06-13T13:58:28+08:00 ] 127.0.0.1 /Admin/Admin/role_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: act_list D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\AdminController.class.php 第 158 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000735s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000775s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: detail D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 102 行.
+NOTIC: [8] Undefined variable: detail D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 106 行.
+NOTIC: [8] Undefined variable: detail D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 108 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Use of undefined constant enable - assumed 'enable' D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+NOTIC: [8] Undefined index: menu D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\e604e7244cc688b517ce5bf26432b733.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+

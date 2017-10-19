@@ -1,0 +1,124 @@
+[ 2017-06-09T14:36:35+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Admin&a=login&t=0.9691143130540887
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Undefined index: login D:\phpstudy\WWW\fenxiao\Application\Admin\Common\function.php 第 33 行.
+
+[ 2017-06-09T14:36:35+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000910s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-06-09T14:36:35+08:00 ] 127.0.0.1 /Admin/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Undefined index: welcome D:\phpstudy\WWW\fenxiao\Application\Admin\Common\function.php 第 33 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpstudy\WWW\fenxiao\Application\Admin\Controller\IndexController.class.php 第 59 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000923s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2017-06-09T14:51:52+08:00 ] 127.0.0.1 /Admin/System/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000734s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000771s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [8] Undefined index: site_url D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\ca87e3a921666444dda363b69fdba826.php 第 102 行.
+NOTIC: [8] Undefined index: tel D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\ca87e3a921666444dda363b69fdba826.php 第 170 行.
+NOTIC: [8] Undefined index: wechat D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\ca87e3a921666444dda363b69fdba826.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-06-09T14:51:53+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Api&a=getRegion&level=1&parent_id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] Undefined index: admin/api D:\phpstudy\WWW\fenxiao\Application\Admin\Common\function.php 第 32 行.
+NOTIC: [8] Undefined index: admin/api D:\phpstudy\WWW\fenxiao\Application\Admin\Common\function.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2017-06-09T15:35:26+08:00 ] 127.0.0.1 /Admin/Admin/role
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000732s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000776s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: page D:\phpstudy\WWW\fenxiao\Application\Runtime\Cache\Admin\20927eb07d3b96edd3fb6587372d1c00.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+

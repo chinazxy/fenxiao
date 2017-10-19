@@ -109,12 +109,10 @@ $('.hide_this').click(function(){
         <div class="header_menu_i"><span></span></div>
         <a href="/Mobile/Index/index.html" class="logo"></a>
         <div class="header_right"><a class="icon icon_search a_search">搜索</a><a href="/Mobile/Cart/cart.html" class="icon icon_cart">购物车
-                <span id='cartGoods' class="label-danger"style="width:50%;">0</span>
                 </a></div>
         <div class="header_menu H">
         	<div class="hide_this"></div>
-        	        	        	   <div class="go_login"><i class="ccIcons-user2"></i>15960299177<a class="out" href="/Mobile/user/logout.html">退出&nbsp;&gt;</a></div>
-        	            
+        	<div class="go_login">欢迎登录诚享东方<a href="/Mobile/user/login.html">登录&nbsp;&gt;</a></div>        	            
             <div class="header_menu_1">
                 <a class="header_menu_m" href="/Mobile/Index/index.html" onClick="headmenu_m(this,false)">首页</a>
             </div>
@@ -131,6 +129,9 @@ $('.hide_this').click(function(){
             </div>
             <div class="header_menu_1">
                 <a class="header_menu_m" href="/Mobile/article/articleList.html" onClick="headmenu_m(this,false)">新闻资讯</a>
+            </div>
+                        <div class="header_menu_1">
+                <a href="/Mobile/user/reg.html" class="header_menu_m" onClick="headmenu_m(this,false)">我要加盟</a>
             </div>
                     </div>
         <form id='sear' action="/Mobile/goods/brandGoodsList.html">
@@ -180,7 +181,7 @@ $('.hide_this').click(function(){
                     <div class="ccshop-text">库存：<span class="ccshop-count">854</span></div>
                 </div>
                 <div class="ccshop-status">
-                    <div class="ccshop-money">￥55.00</div>
+                    <div class="ccshop-money">￥209.00</div>
                     <div class="ccshop-car icons icons-car"></div><input type='hidden' value='54'/>
                 </div>
             </div>
@@ -193,7 +194,7 @@ $('.hide_this').click(function(){
                     <div class="ccshop-text">库存：<span class="ccshop-count">998</span></div>
                 </div>
                 <div class="ccshop-status">
-                    <div class="ccshop-money">￥2.00</div>
+                    <div class="ccshop-money">￥9.00</div>
                     <div class="ccshop-car icons icons-car"></div><input type='hidden' value='53'/>
                 </div>
             </div>
@@ -206,7 +207,7 @@ $('.hide_this').click(function(){
                     <div class="ccshop-text">库存：<span class="ccshop-count">960</span></div>
                 </div>
                 <div class="ccshop-status">
-                    <div class="ccshop-money">￥28.00</div>
+                    <div class="ccshop-money">￥89.00</div>
                     <div class="ccshop-car icons icons-car"></div><input type='hidden' value='52'/>
                 </div>
             </div>
@@ -219,7 +220,7 @@ $('.hide_this').click(function(){
                     <div class="ccshop-text">库存：<span class="ccshop-count">-370</span></div>
                 </div>
                 <div class="ccshop-status">
-                    <div class="ccshop-money">￥20.00</div>
+                    <div class="ccshop-money">￥60.00</div>
                     <div class="ccshop-car icons icons-car"></div><input type='hidden' value='51'/>
                 </div>
             </div>
@@ -261,7 +262,7 @@ $('.hide_this').click(function(){
     <!-- 公司详细 -->
     <div class="company">
         <a href="/Mobile/article/index.html" class="company-item no-line">品牌故事</a>
-                <a href="/Mobile/index/qualification.html" class="company-item">经销商认证</a>
+        <a href="/Mobile/user/reg.html" class="company-item">我要加盟</a>        <a href="/Mobile/index/qualification.html" class="company-item">经销商认证</a>
         <a href="http://zhongguo12315.cn/hfs" class="company-item">防伪查询</a>
     </div>
     <!-- 联系方式 -->
@@ -334,8 +335,7 @@ $('.hide_this').click(function(){
 
      <!-- <div class="footer" >
 	      <div class="links"  id="TP_MEMBERZONE"> 
-	      		<a href="/Mobile/User/index.html"><span></span></a><a href="/Mobile/User/logout.html"><span>退出</span></a>
-	      			      		<a href="#"><span>反馈</span></a><a href="javascript:window.scrollTo(0,0);"><span>回顶部</span></a>
+	      			      		<a href="/Mobile/User/login.html"><span>登录</span></a><a href="/Mobile/User/reg.html"><span>注册</span></a>	      		<a href="#"><span>反馈</span></a><a href="javascript:window.scrollTo(0,0);"><span>回顶部</span></a>
 		  </div>
 	      <ul class="linkss" >
 		      <li>
@@ -362,7 +362,7 @@ $('.hide_this').click(function(){
         <input type='hidden' name='goods_num' id ='s_goods_num' value='' />
         <input type='hidden' name='buy_type' id ='s_buy_type'' value='1	'/>
      </form>
-    <input type='hidden' name='login' id ='is_login' value='1' />
+    <input type='hidden' name='login' id ='is_login' value='0' />
 
 
 
